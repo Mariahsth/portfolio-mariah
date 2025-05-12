@@ -13,11 +13,33 @@
     margin-bottom: 3rem;
 }
 
+@keyframes slideInFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .slide-in {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  
+  .slide-in.visible {
+    animation: slideInFromLeft 0.8s ease-out forwards;
+  }
+  
 h2{
     font-size: 56px;
     color:var(--green);
-
+    background: transparent;
 }
+
+
 
 h3{
     font-size: 36px;

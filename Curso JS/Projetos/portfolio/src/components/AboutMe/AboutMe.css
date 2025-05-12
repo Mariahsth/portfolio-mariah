@@ -1,0 +1,108 @@
+.about_me_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 8rem;
+    padding: 5em;
+    padding-top: 200px;
+}
+
+.about_me_titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+h2{
+    font-size: 56px;
+    color:var(--green);
+
+}
+
+h3{
+    font-size: 36px;
+}
+
+.about_me_texto_foto{
+    display: flex;
+    gap:2em;
+}
+
+.about_me_texto_container{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.about_me_foto{
+    width: 500px;
+    height: fit-content;
+    border-radius: 50%;
+}
+
+.texto_destaque{
+    color:var(--green);
+}
+
+.botao_CV{
+    width: 200px;
+    border-radius: 16px;
+    border: 1px solid white;
+    padding: 1em;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.botao_CV:hover{
+    color: var(--green);
+    border: 1px solid var(--green);
+    transform: scale(1.1);
+
+}
+
+@media (max-width: 1294px){
+    .about_me_texto_foto{
+        flex-direction: column;
+        gap:2em;
+        align-items: center;
+    }
+
+}
+@media (max-width: 620px){
+    h2{
+        font-size: 42px;    
+    }
+    h3{
+        font-size: 27px;
+    }
+    .about_me_foto{
+        width: 300px;
+    }
+    .about_me_texto_container{
+        font-size: 16px;
+
+    }
+    .about_me_container{
+        padding: 3em;
+    
+    }
+}
+@media (max-width: 400px){
+    h2{
+        font-size: 36px;    
+    }
+    h3{
+        font-size: 20px;
+    }
+    .about_me_foto{
+        width: 200px;
+
+    }
+    .about_me_texto_container{
+        font-size: 14px;
+
+    }
+
+}

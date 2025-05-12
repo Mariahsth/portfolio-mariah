@@ -1,0 +1,297 @@
+.home_container{
+    display: flex;
+    flex-direction: row;
+    padding: 15em;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: space-between;
+    gap: 5em;
+    flex:1;
+    box-sizing: border-box;
+    
+}
+
+.home_foto_container{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex:1;
+    box-sizing: border-box;
+
+}
+
+
+.home_foto_container >.foto_mariah{
+    position: absolute;
+    left: 5vw;
+    width: 22vw;
+    height: auto;
+    border-radius: 50%;
+}
+
+.home_foto_container >.foto_circulo{
+    position: absolute;
+    left: 0vw;
+    width: 25vw;
+}
+.home_nome_botoes_container{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.typewriter {
+    color: var(--green);
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.linha1 {
+    width: 0;
+    animation: 
+        typing1 2s steps(8, end) 1s forwards,
+        blink-caret-1 0.7s step-end 2 3s,
+        stop-caret-1 0s 4.4s forwards,
+        restart-caret-1 0s 10.6s forwards,
+        erase1 2s steps(8, end) 11s forwards;
+    border-right: 0.15em solid var(--green);
+}
+
+.linha2 {
+    width: 0;
+    visibility: hidden;
+    animation:
+        showLine2 0s 4.4s forwards,
+        typing2 2s steps(9, end) 4.5s forwards,
+        blink-caret-2 0.7s step-end 2 6.6s,
+        erase2 2s steps(9, end) 8.5s forwards,
+        hideLine2 0s 10.6s forwards;
+    border-right: 0.15em solid transparent;
+}
+
+
+
+@keyframes typing1 {
+    from { width: 0 }
+    to { width: 8ch }
+}
+
+@keyframes erase1 {
+    from { width: 8ch }
+    to { width: 0 }
+}
+
+@keyframes typing2 {
+    from { width: 0 }
+    to { width: 9ch }
+}
+
+@keyframes erase2 {
+    from { width: 9ch }
+    to { width: 0 }
+}
+
+@keyframes showLine2 {
+    to { visibility: visible; border-right: 0.15em solid var(--green); }
+}
+
+@keyframes hideLine2 {
+    to { visibility: hidden; border-right: 0.15em solid transparent; }
+}
+
+@keyframes stop-caret-1 {
+    to { border-right: none; }
+}
+
+@keyframes restart-caret-1 {
+    to { border-right: 0.15em solid var(--green); }
+}
+
+@keyframes blink-caret-1 {
+    0%, 100% { border-color: var(--green); }
+    50% { border-color: transparent; }
+}
+
+@keyframes blink-caret-2 {
+    0%, 100% { border-color: var(--green); }
+    50% { border-color: transparent; }
+}
+
+.typewriter_container_loop {
+    animation: restart 14s linear infinite;
+    display: inline-block;
+    font-size: 5rem;
+    font-weight: 100;
+    color: var(--green);
+    text-align: center;
+    line-height: 1.2;
+}
+@keyframes restart {
+    0% {}
+    100% {}
+}
+
+.home_botoes{
+    display: flex;
+    gap: 3em;
+    padding: 1em;
+
+}
+
+.botao{
+    font-size: 2rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+}
+
+
+
+.botao:hover{
+    color: var(--green);
+    border: 1px solid var(--green);
+    transform: scale(1.1);
+
+}
+
+.icone{
+    background-image: var(--green);
+    fill: var(--green);
+}
+
+@media (max-width: 1584px){
+
+.home_container {
+    gap:1em;
+}
+.home_foto_container{
+    z-index:1;
+}
+.home_nome_botoes_container{
+    z-index:2;
+}
+
+}
+
+
+@media (max-width: 1420px){
+
+    .home_container {
+        padding: 5em 12em;
+    }
+}
+
+@media (max-width: 1360px){
+
+    .home_container {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        gap: 5em;   
+
+    }
+
+    .home_foto_container{
+        height: 25vh;
+    }
+
+
+
+    .home_foto_container >.foto_mariah{
+        left: 8vw;
+        width: 22vw;
+    }
+    
+    .home_foto_container >.foto_circulo{
+        left: 3vw;
+        width: 25vw;
+    }
+}
+
+@media (max-width: 1100px){
+    .home_foto_container >.foto_mariah{
+        left: 6vw;
+        width: 25vw;
+
+    }
+    
+    .home_foto_container >.foto_circulo{
+        left: 2vw;
+        width: 28vw;
+    }
+
+    .home_container{
+        gap:8em;
+        margin-top:5em;
+    }
+
+    .home_nome_botoes_container h1{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 745px){
+    .home_container{
+        padding: 0.5em;
+        width:100%;
+        gap:3em;
+        height: 100vh;
+
+    }
+
+    .home_foto_container{
+        width: 100%;
+    }
+
+    .home_foto_container >.foto_mariah{
+        width: 40%;
+        left: 30vw;
+    }
+    
+    .home_foto_container >.foto_circulo{
+        width: 45%;
+        left: 22vw;
+    }
+}
+
+@media (max-width: 700px){
+    .home_nome_botoes_container{
+        width: 100%;
+    }
+
+    .home_botoes{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .botao{
+        font-size: 1rem;
+    }
+
+    .home_nome_botoes_container h1{
+        font-size: 3rem;
+    }
+
+
+    .home_container{
+        gap:3em;
+        height: 100vh;
+    }
+
+
+}

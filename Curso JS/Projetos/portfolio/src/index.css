@@ -1,0 +1,21 @@
+:root {
+  --purple-1: hsl(284, 66%, 7%);
+  --purple-2: hsl(283, 64%, 20%);
+  --green:hsl(118, 48%, 60%);
+  --font: 'Prompt', sans-serif;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    to bottom,
+    var(--purple-1),
+    var(--purple-2)
+  );
+  background-attachment: fixed;
+  font-family: var(--font);
+  font-weight: 400;
+  color: white;
+}

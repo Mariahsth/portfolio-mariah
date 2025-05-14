@@ -1,7 +1,7 @@
 export const icones=[
     {
         nome:"JS",
-        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg",
     },
     {
         nome:"Node.js",

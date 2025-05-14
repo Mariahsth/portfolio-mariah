@@ -27,7 +27,7 @@
     width: 22vw;
     height: auto;
     border-radius: 50%;
-    box-shadow: 12px 12px 2px 1px rgba(94, 214, 70, 0.2);
+    border: 1px solid var(--green);
     margin-right: 15rem;
 }
 

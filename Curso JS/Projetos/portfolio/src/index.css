@@ -2,7 +2,7 @@
   --purple-1: hsl(284, 66%, 7%);
   --purple-2: hsl(283, 64%, 20%);
   --green:hsl(118, 48%, 60%);
-  --font: 'Prompt', sans-serif;
+  --font:  'Space Grotesk', sans-serif;
 
 }
 * {
@@ -19,3 +19,4 @@
   font-weight: 400;
   color: white;
 }
+

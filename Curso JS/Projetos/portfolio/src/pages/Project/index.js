@@ -3,6 +3,7 @@ import "./Project.css";
 import { projetos } from "../../components/Projects/projectsData";
 import { AiOutlineGithub } from "react-icons/ai";
 import { icones } from "../../components/Tecnologies/icones";
+import { FaLaptopCode, FaCog } from 'react-icons/fa';
 
 export default function Project() {
   const { id } = useParams();
@@ -35,8 +36,8 @@ export default function Project() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Acessar repositório no github
                   <AiOutlineGithub className="icone_github" />
+                  Acessar repositório no github
                 </a>
               </div>
             </div>
@@ -54,10 +55,18 @@ export default function Project() {
                   }`}
                   key={index}
                 >
-                  {paragrafo}
+                  {paragrafo.includes("Recursos do aplicativo") ? (
+                    <>
+                      <FaCog style={{ marginRight: '0.5rem' }} />
+                      {paragrafo}
+                    </>
+                    ) : (
+                      paragrafo
+                    )}
                 </p>
               ))}
               <p className="texto_descricao texto_destacado">
+              <FaLaptopCode  style={{ marginRight: '0.5rem' }}  />
                 Principais tecnologias utilizadas:
               </p>
 

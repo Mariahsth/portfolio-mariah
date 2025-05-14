@@ -1,5 +1,5 @@
 import './Home.css';
-import fotoMariah from '../../assets/mariah_home.jpg'
+import fotoMariah from '../../assets/mariah_home4.jpg'
 import { AiOutlineLinkedin, AiOutlineGithub   } from "react-icons/ai";
 import { RiInstagramLine } from "react-icons/ri";
 import AboutMe from '../../components/AboutMe';

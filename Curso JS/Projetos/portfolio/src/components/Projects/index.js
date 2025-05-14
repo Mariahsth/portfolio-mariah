@@ -31,7 +31,7 @@ export default function Projects() {
                 <div className="container_icone_projeto">
                   {icones.map((icone, index) => (
                     projeto.tags.includes(icone.nome) && 
-                      <img key={`${projeto.id}-${index}`} className="icone_projeto" src={icone.url} alt={`icone de ${icone.nome}`}/>
+                      <img key={`${projeto.id}-${index}`} className="icone_projeto" src={icone.url} alt={icone.nome}/>
                   ))}
                 </div>
                 <p className="projects_sabermais" >Saiba mais</p>

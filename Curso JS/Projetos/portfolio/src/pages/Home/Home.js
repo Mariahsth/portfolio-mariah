@@ -6,7 +6,7 @@ import AboutMe from '../../components/AboutMe';
 import Projects from '../../components/Projects';
 import { useEffect, useState } from 'react';
 import Tecnologies from '../../components/Tecnologies';
-
+import Header from '../../components/Header/index'
 
 
 
@@ -23,6 +23,7 @@ export default function Home() {
 
   return (
     <>
+      <Header/>
       <div className='home_container' id='home'>
         <div className='home_foto_container'>
           <img className="foto_mariah" src={fotoMariah} alt="foto de Mariah" />

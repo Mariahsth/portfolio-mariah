@@ -51,4 +51,12 @@ export const icones=[
         nome:"MaterialUI",
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
     },
+    {
+        nome:"Express",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+    },
+    {
+        nome:"Axios",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
+    },
   ]

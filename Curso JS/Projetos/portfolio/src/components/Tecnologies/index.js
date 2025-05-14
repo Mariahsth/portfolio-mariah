@@ -26,7 +26,7 @@ export default function Tecnologies() {
           duration: 20,
           ease: "linear"}}>
             {[...icones, ...icones].map((icone, index) => (
-                <img className="icone_tecnologias" alt={`icone-${icone.nome}`} src={icone.url}/>
+                <img className="icone_tecnologias" alt={`icone-${icone.nome}`} src={icone.url} key={index}/>
 
             ))}
         </motion.div>

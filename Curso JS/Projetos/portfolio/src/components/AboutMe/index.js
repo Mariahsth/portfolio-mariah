@@ -52,11 +52,14 @@ export default function AboutMe() {
           <p>
             Hoje sou muito feliz de trazer a experiência de dev mais próxima da
             realidade, e ansiosa para receber minha primeira oportunidade para
-            atuar na área! Confira meu currículo:
+            atuar na área! 
           </p>
-          <button className="botao_CV" onClick={carregaCV}>
-            CV (pdf)
-          </button>
+          <div>
+            <p>Confira meu currículo:</p>
+            <button className="botao_CV" onClick={carregaCV}>
+              CV (pdf)
+            </button>
+          </div>
         </div>
         <img
           src={fotoFormatura}

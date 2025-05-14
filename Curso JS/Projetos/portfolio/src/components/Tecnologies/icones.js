@@ -1,0 +1,54 @@
+export const icones=[
+    {
+        nome:"JS",
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
+    },
+    {
+        nome:"Node.js",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+    },
+    {
+        nome:"React",
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    },
+    {
+        nome:"HTML",
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+    },
+    {
+        nome:"CSS",
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+    },
+    {
+        nome:"Python",
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    },
+    {
+        nome:"Mongoose",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg",
+    },
+    {
+        nome:"MongoDB",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg",
+    },
+    {
+        nome:"Vite",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+    },
+    {
+        nome:"TypeScript",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+    },
+    {
+        nome:"Jest",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg",
+    },
+    {
+        nome:"Redux",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
+    },
+    {
+        nome:"MaterialUI",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
+    },
+  ]

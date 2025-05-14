@@ -8,7 +8,7 @@ export default function Projects() {
     <div className="projects_container" id="projects">
       <div className="projects_titulo_container">
         <h2 ref={ref} className="slide-in">
-          Projects
+          Projetos
         </h2>
       </div>
       <div className="projects_lista_container">

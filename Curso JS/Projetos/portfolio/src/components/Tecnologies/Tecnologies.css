@@ -1,0 +1,37 @@
+.tecnologias_container{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnologias_icones_container{
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+}
+
+.sliderWrapper {
+    overflow: hidden;
+    width: 100%;
+    padding: 1rem 0;
+    background: transparent;
+  }
+  
+.slider {
+    display: flex;
+    gap: 3rem;
+    width: fit-content;
+    background: transparent;
+
+}
+
+.icone_tecnologias{
+    width: 7%;
+    height: auto;
+    background: transparent;
+    margin-right: 0;
+    flex-shrink: 0;
+}
+

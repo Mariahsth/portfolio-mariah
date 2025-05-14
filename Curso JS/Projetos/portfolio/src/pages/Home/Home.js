@@ -1,11 +1,11 @@
 import './Home.css';
 import fotoMariah from '../../assets/mariah_home.jpg'
-import circuloColorido from '../../assets/circulo_colorido.png'
 import { AiOutlineLinkedin, AiOutlineGithub   } from "react-icons/ai";
 import { RiInstagramLine } from "react-icons/ri";
 import AboutMe from '../../components/AboutMe';
 import Projects from '../../components/Projects';
 import { useEffect, useState } from 'react';
+import Tecnologies from '../../components/Tecnologies';
 
 
 
@@ -25,7 +25,6 @@ export default function Home() {
     <>
       <div className='home_container' id='home'>
         <div className='home_foto_container'>
-          <img className="foto_circulo" src={circuloColorido} alt="foto de um círculo colorido" />
           <img className="foto_mariah" src={fotoMariah} alt="foto de Mariah" />
         </div>
         <div className='home_nome_botoes_container'>
@@ -42,6 +41,7 @@ export default function Home() {
         </div>
       </div>
         <AboutMe/>
+        <Tecnologies/>
         <Projects/>
 
 

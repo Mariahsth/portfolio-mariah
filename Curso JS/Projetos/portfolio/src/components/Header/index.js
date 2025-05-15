@@ -11,9 +11,7 @@ export default function Header(){
                     <li><a href="#tecnologies">Tecnologias</a></li>
                     <li><a href="#projects">Projetos</a></li>
                 </ul>
-
             </nav>
-
         </header>
     )
 }

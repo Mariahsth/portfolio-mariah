@@ -1,5 +1,15 @@
 .container_project {
   padding: 2rem 5rem 5rem 8rem;
+  max-width: 100wv;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_voltar{
+  display: flex;
+  width: 100%;
+  justify-content: start;
 }
 
 .project_voltar {
@@ -36,11 +46,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: fit-content; 
+  transform-origin: center;
+  
 }
 
 .project_imagem_link_container p {
   text-decoration: none;
   font-weight: 700;
+  background: transparent;
+
 }
 
 .project_imagem {
@@ -48,13 +63,19 @@
   border-radius: 8px;
   border: 3px solid var(--purple-1);
 }
+
+
 .project_imagem_link_container:hover {
   transform: scale(1.1);
+
 }
 .project_imagem_link_container:hover > p {
   font-weight: 700;
   background: transparent;
   font-size: 20px;
+}
+.project_imagem_hover_container{
+  background: transparent;
 }
 
 .container_imagem_descricao {
@@ -77,6 +98,17 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  background: transparent;
+}
+
+.descricao_projeto >p {
+  background: transparent;
+
+}
+
+.descricao_projeto >div {
+  background: transparent;
+
 }
 
 .bloco_imagem {
@@ -90,6 +122,8 @@
   margin-bottom: 0.3rem;
   display: flex;
   align-items: center;
+  background: transparent;
+
 }
 
 .texto_destacado {
@@ -98,8 +132,21 @@
   margin-top: 2rem;
   margin-bottom: 1.5rem;
   color: rgba(255, 255, 255, 0.219);
+  background: transparent;
+
 }
 
+.container_CV{
+  background: transparent;
+}
+.texto_descricao>span{
+  background: transparent;
+
+}
+.texto_descricao>img{
+  background: transparent;
+
+}
 
 .container_tecnologias {
   display: flex;

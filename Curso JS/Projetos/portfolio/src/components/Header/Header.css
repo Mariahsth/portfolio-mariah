@@ -6,8 +6,9 @@ header{
     left: 0;
     width: 100%; 
     z-index: 1000;
-
+    max-width: 100wv;
 }
+
 
 nav {
     width: 100%;

@@ -35,3 +35,38 @@
     flex-shrink: 0;
 }
 
+@media (max-width: 768px) {
+    .tecnologias_container {
+      padding-top: 100px;
+    }
+  
+    .tecnologias_icones_container {
+      margin-top: 5rem;
+    }
+  
+    .slider {
+      gap: 1.5rem;
+    }
+  
+    .icone_tecnologias {
+      width: 14%; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tecnologias_container {
+      padding-top: 80px;
+    }
+  
+    .tecnologias_icones_container {
+      margin-top: 3rem;
+    }
+  
+    .slider {
+      gap: 1rem;
+    }
+  
+    .icone_tecnologias {
+      width: 18%;
+    }
+  }

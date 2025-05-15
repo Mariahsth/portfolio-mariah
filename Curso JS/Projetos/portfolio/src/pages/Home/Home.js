@@ -25,20 +25,24 @@ export default function Home() {
     <>
       <Header/>
       <div className='home_container' id='home'>
-        <div className='home_foto_container'>
-          <img className="foto_mariah" src={fotoMariah} alt="foto de Mariah" />
+        <div className='container_foto_texto'>
+          <div className='home_foto_container'>
+            <img className="foto_mariah" src={fotoMariah} alt="foto de Mariah" />
+          </div>
+          <div className='container_textos'>
+            <h1 key={animationKey} className="typewriter_container_loop">
+              <span className="typewriter linha1">&lt;Mariah</span>
+              <br />
+              <span className="typewriter linha2">Hoffmann/&gt;</span>
+            </h1>
+            <h3>Desenvolvedora web</h3>
+
+          </div>
         </div>
-        <div className='home_nome_botoes_container'>
-          <h1 key={animationKey} className="typewriter_container_loop">
-            <span className="typewriter linha1">&lt;Mariah</span>
-            <br />
-            <span className="typewriter linha2">Hoffmann/&gt;</span>
-          </h1>
-          <div className="home_botoes">
+        <div className="home_botoes">
                   <a className="botao" href="https://instagram.com/mariahsilveirath"><RiInstagramLine    className='icone' /> Instagram</a>
                   <a className="botao" href="https://www.linkedin.com/in/mariah-silveira-tagliari-hoffmann-9a067914a/"><AiOutlineLinkedin className='icone'/> Linkedin</a>
                   <a className="botao" href="https://github.com/Mariahsth"><AiOutlineGithub className='icone'/>  Github</a>
-              </div>
         </div>
       </div>
         <AboutMe/>

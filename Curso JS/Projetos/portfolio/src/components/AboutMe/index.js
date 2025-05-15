@@ -4,6 +4,7 @@ import { useSlideInOnView } from "../../hooks/useSlideInOnView.js";
 
 export default function AboutMe() {
   const slideInRef = useSlideInOnView("slide-in", { threshold: 0.1 })
+  const slideInRef2 = useSlideInOnView("slide-out", { threshold: 0.1 })
  
   const carregaCV = () => {
     const fileUrl = "./MariahCV.pdf";
@@ -19,8 +20,8 @@ export default function AboutMe() {
           Quem sou eu?
         </h2>
       </div>
-      <div className="about_me_texto_foto">
-        <div className="about_me_texto_container">
+      <div className="about_me_texto_foto  slide-out" ref={slideInRef2}>
+        <div className="about_me_texto_container" >
           <h3>Olá, me chamo Mariah!</h3>
           <p>
             Sou Engenheira de Materiais, formada na Universidade Federal de
@@ -54,8 +55,8 @@ export default function AboutMe() {
             realidade, e ansiosa para receber minha primeira oportunidade para
             atuar na área! 
           </p>
-          <div>
-            <p>Confira meu currículo:</p>
+          <div className="container_CV">
+            <p className="texto_CV">Confira meu currículo:</p>
             <button className="botao_CV" onClick={carregaCV}>
               CV (pdf)
             </button>

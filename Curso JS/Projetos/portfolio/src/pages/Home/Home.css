@@ -1,16 +1,35 @@
 .home_container{
     display: flex;
-    flex-direction: row;
-    padding: 13em;
+    flex-direction: column;
+    padding: 5em;
     width: 100%;
     min-height: 100vh;
-    justify-content: space-between;
-    gap: 6em;
+    justify-content: center;
+    gap: 3em;
     flex:1;
     box-sizing: border-box;
-    
+    align-items: center;
+    max-width: 100wv;
+    margin: 0 auto;     
+    margin-top: 5rem;
+    padding-top: 200px;
 }
 
+.container_foto_texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container_textos{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+}
 .home_foto_container{
     display: flex;
     width: 50%;
@@ -24,7 +43,7 @@
 
 
 .home_foto_container >.foto_mariah{
-    width: 22vw;
+    width: 28vw;
     height: auto;
     border-radius: 50%;
     border: 1px solid var(--green);
@@ -39,6 +58,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.home_nome_botoes_container > h3 {
+    margin: 3rem 0;
 }
 
 .typewriter {
@@ -244,23 +267,42 @@
     .home_container{
         padding: 0.5em;
         width:100%;
-        gap:3em;
+        gap:2em;
         height: 100vh;
 
     }
-
-    .home_foto_container{
+    .container_foto_texto{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 5rem;
         width: 100%;
     }
 
+
+
     .home_foto_container >.foto_mariah{
-        width: 40%;
-        left: 30vw;
+        width: 200px;
+        margin: 0;
+        padding: 0;
+
     }
-    
-    .home_foto_container >.foto_circulo{
-        width: 45%;
-        left: 22vw;
+    .typewriter_container_loop {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+
+    .container_textos>h3{
+        font-size: 1rem;
+    }
+    .home_botoes{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .botao{
+        font-size: 1rem;
     }
 }
 
@@ -269,15 +311,6 @@
         width: 100%;
     }
 
-    .home_botoes{
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-    }
-
-    .botao{
-        font-size: 1rem;
-    }
 
     .home_nome_botoes_container h1{
         font-size: 3rem;

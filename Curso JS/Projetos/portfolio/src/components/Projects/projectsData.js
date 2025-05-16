@@ -3,7 +3,7 @@ export const projetos=[
       id:1,
       nome: "Aluroni",
       descricao: " Projeto Front-end de site de restaurante italiano \n\n  Recursos do aplicativo:\n\n - Acessar informações sobre cada prato\n\n- Filtrar pratos por categoria\n\n- Buscar pratos por nome\n\n- Ordenar pratos por preço, porção ou quantidade de pessoas servidas",
-      imagem: "/images/aluroni.png",
+      imagem: "./images/aluroni.png",
       github: "https://github.com/Mariahsth/aluroni",
       demo: "https://aluroni-snowy.vercel.app/",
       tags:"React, TypeScript, Node.js, Jest",

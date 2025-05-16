@@ -76,7 +76,7 @@ header a:hover {
   }
 
   .header_menu a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 350px) {

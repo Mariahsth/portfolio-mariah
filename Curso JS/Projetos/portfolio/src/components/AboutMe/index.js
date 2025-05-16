@@ -58,7 +58,7 @@ export default function AboutMe() {
           <div className="container_CV">
             <p className="texto_CV">Confira meu currículo:</p>
             <button className="botao_CV" onClick={carregaCV}>
-              CV (pdf)
+              CV
             </button>
           </div>
         </div>

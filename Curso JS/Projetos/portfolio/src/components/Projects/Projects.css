@@ -147,6 +147,9 @@
   .projects_titulo_container> h2{
     font-size: 42px;    
 }
+.projects_titulo_container{
+  padding-top: 2rem;
+}
 
 }
 @media (max-width: 480px){

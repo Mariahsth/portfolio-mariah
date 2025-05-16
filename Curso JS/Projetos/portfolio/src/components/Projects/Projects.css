@@ -29,7 +29,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  max-width: 1400px;
   margin: 0 auto;
   padding: 0;
 }
@@ -46,8 +45,8 @@
     text-align: center;
     gap: 1rem;
     background-color: #1a1a1a;
-    width: 450px;
-    height: 400px;
+    width: 500px;
+    height: 450px;
     cursor: pointer;
     justify-content: center;
     transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
@@ -55,6 +54,8 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 0.5rem;
+    box-sizing: border-box;
 
   }
 
@@ -104,7 +105,7 @@
 .projects_titulo_container>h2{
   font-size: 56px;
 }
-@media (max-width: 1440px){
+@media (max-width: 1580px){
   .projects_lista {
     grid-template-columns: repeat(3, 1fr);
 
@@ -140,7 +141,7 @@
   .project_item {
     
     width: 300px;
-    height: 300px;
+    height: 350px;
     
 
   }

@@ -16,7 +16,7 @@
 .sliderWrapper {
     overflow: hidden;
     width: 100%;
-    padding: 1rem 0 3rem 0;
+    padding: 1rem 0 5rem 0;
     background: transparent;
   }
   
@@ -52,7 +52,7 @@
     }
 
     .sliderWrapper {
-      padding: 2rem 0 5rem 0;
+      padding: 2rem 0 8rem 0;
     }
 
     .tecnologias_container{

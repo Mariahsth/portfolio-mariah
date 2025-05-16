@@ -51,9 +51,6 @@ header a:hover {
 }
 
 @media (max-width: 745px) {
-  header {
-    position: absolute;
-  }
 
   .header_menu {
     gap: 5rem;

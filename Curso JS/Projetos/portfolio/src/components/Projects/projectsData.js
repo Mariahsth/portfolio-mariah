@@ -1,6 +1,33 @@
 export const projetos=[
-    {
-      id:1,
+  {
+    id:1,
+    nome: "Meteora",
+    descricao: "Projeto de E-commerce de moda (ainda em desenvolvimento)\n\n  Recursos do aplicativo:\n\nNeste estágio de desenvolvimento, o Meteora possui as seguintes funcionalidades:\n\n- Adicionar itens ao carrinho\n\n- Remover itens do carrinho\n\n- Visualizar a página do carrinho\n\n- Deletar itens do carrinho",
+    imagem: "/images/meteora.PNG",
+    github: "https://github.com/Mariahsth/meteora",
+    demo: "https://meteora-sepia.vercel.app/",
+    tags:"React, Vite, JS, Node.js",
+  },
+  {
+    id:2,
+    nome: "Cinetag",
+    descricao: " Aplicativo de reprodução de videos\n\n  Recursos do aplicativo:\n\n- Reprodução de videos\n\n- Favoritar videos\n\n- Acessar videos favoritos",
+    imagem: "/images/cinetag.PNG",
+    github: "https://github.com/Mariahsth/cinetag",
+    demo: "https://cinetag-one-beige.vercel.app/",
+    tags:"React, JS, Node.js, CSS",
+  },
+  {
+    id:3,
+    nome: "Dynamox App",
+    descricao: " Projeto Full-Stack de aplicativo para monitorização de ativos\n\nEsse projeto foi realizado em um desafio de desenvolvimento\n\n  Recursos do aplicativo:\n\n- Autenticação para acessar rotas privadas\n\n- Criar, editar e excluir máquinas\n\n- Criar pontos de monitoramento e sensores para uma máquina existente\n\n- Impedir a configuração dos sensores 'TcAg' e 'TcAs' para máquinas do tipo 'Bomba'\n\n- Listar todos os pontos de monitoramento em uma lista paginada\n\n- Classificar a lista de pontos de monitoramento por qualquer uma de suas colunas em ordem crescente ou decrescente",
+    imagem: "/images/dynamox.JPG",
+    github: "https://github.com/Mariahsth/developer-challenges/tree/mariah-hoffmann",
+    demo: "https://developer-challenges-507u.onrender.com/",
+    tags:"TypeScript, React, Redux, Vite, Node.js, MongoDB, Mongoose, MaterialUI",
+  },
+  {
+      id:4,
       nome: "Aluroni",
       descricao: " Projeto Front-end de site de restaurante italiano \n\n  Recursos do aplicativo:\n\n - Acessar informações sobre cada prato\n\n- Filtrar pratos por categoria\n\n- Buscar pratos por nome\n\n- Ordenar pratos por preço, porção ou quantidade de pessoas servidas",
       imagem: "/images/aluroni.PNG",
@@ -9,7 +36,7 @@ export const projetos=[
       tags:"React, TypeScript, Node.js, Jest",
     },
     {
-      id:2,
+      id:5,
       nome: "ByteBank",
       descricao: " Página de cotação de moedas em tempo real\n\n  Recursos do aplicativo:\n\n- Acessar em tempo real a cotação em reais de dólar, euro e iene \n\n- Interface gráfica e valores da moeda atualizados a cada 5 segundos",
       imagem: "/images/byte-bank.JPG",
@@ -18,7 +45,7 @@ export const projetos=[
       tags:"JS, HTML, CSS",
     },
     {
-      id:3,
+      id:6,
       nome: "Event tracker",
       descricao: " Aplicativo de calendário para agenda de eventos\n\n  Recursos do aplicativo:\n\n- Calendário interativo\n\n- Buscar eventos salvos no banco de dados\n\n- Criar novos eventos no banco de dados\n\n- Excluir eventos\n\n- Finalizar eventos\n\n- Filtro de eventos por data",
       imagem: "/images/event-tracker.PNG",
@@ -27,7 +54,7 @@ export const projetos=[
       tags:"React, TypeScript, Node.js",
     },
     {
-      id:4,
+      id:7,
       nome: "Réplica do Spotify",
       descricao: " Projeto Full-stack de aplicativo web que permite acessar e ouvir as principais músicas dos artistas mais ouvidos do Brasil.\n\n  Recursos do aplicativo:\n\n- Acessar artistas e músicas populares\n\n- Acessar albuns de cada artista\n\n- Acessar player da música escolhida\n\n- Reproduzir e pausar música desejada\n\n- Seguir para a póxima música ou para a anterior\n\n- Reproduzir música no modo aleatório",
       imagem: "/images/spotify.JPG",
@@ -36,7 +63,7 @@ export const projetos=[
       tags:"Node.js, JS, React, Express, MongoDB, Axios, Vite",
     },
     {
-      id:5,
+      id:8,
       nome: "Alurabooks",
       descricao: " Aplicativo de livraria\n\n  Recursos do aplicativo:\n\n",
       imagem: "/images/alurabooks.PNG",
@@ -45,7 +72,7 @@ export const projetos=[
       tags:"React, CSS, JS",
     },
     {
-      id:6,
+      id:9,
       nome: "Fokus",
       descricao: " Aplicativo interativo de controle de tarefas\n\n  Recursos do aplicativo:\n\n- Interface temática interativa: Foco, Descanso curto ou descanso longo\n\n- Cronometragem de acordo com o tema\n\n- Reprodução e pausa de música\n\n- Inclusão de atividade na lista de tarefas\n\n- Edição e exclusão de tarefa\n\n- Seleção de tarefa em andamento\n\n- Finalização de tarefa ao final do cronometro",
       imagem: "/images/fokus.PNG",
@@ -54,7 +81,16 @@ export const projetos=[
       tags:"HTML, CSS, JS",
     },
     {
-      id:7,
+      id:10,
+      nome: "SpaceApp",
+      descricao: " Blog de astronomia\n\n  Recursos do aplicativo:\n\n- Filtrar fotos por tags\n\n- Buscar fotos por barra de pesquisa\n\n- Favoritar fotos\n\n- Visualizar imagem amplificada",
+      imagem: "/images/space-app.PNG",
+      github: "https://github.com/Mariahsth/space-app",
+      demo: "https://space-app-nine-pi.vercel.app/",
+      tags:"React, Vite, Node.js, CSS",
+    },
+    {
+      id:11,
       nome: "Amigo Secreto",
       descricao: " Sorteador de amigo secreto\n\n  Recursos do aplicativo:\n\n- Controle mínimo de participantes\n\n- Controle de nomes repetidos\n\n- Sorteio de amigo secreto\n\n- Projeto com testes unitários",
       imagem: "/images/amigo-secreto.PNG",

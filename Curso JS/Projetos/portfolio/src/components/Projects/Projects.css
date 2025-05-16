@@ -147,11 +147,7 @@
   .projects_titulo_container> h2{
     font-size: 42px;    
 }
-  .projects_container{
 
-    padding-top: 300px;
-
-  }
 }
 @media (max-width: 480px){
   .projects_titulo_container> h2{

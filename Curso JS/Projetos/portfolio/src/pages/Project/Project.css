@@ -206,6 +206,19 @@
   .project_imagem_link_container > p {
     font-size: 18px;
   }
+
+  .container_project {
+    padding-top: 0.5rem;
+  }
+
+  .titulo_project {
+    margin-bottom: 1rem;
+  }
+
+  .project_imagem_link_container {
+    margin-bottom: 1rem;
+    
+  }
 }
 @media(max-width: 450px){
   .titulo_project{

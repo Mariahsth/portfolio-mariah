@@ -36,9 +36,7 @@
 }
 
 @media (max-width: 768px) {
-    .tecnologias_container {
-      padding-top: 100px;
-    }
+
   
     .tecnologias_icones_container {
       margin-top: 5rem;
@@ -54,9 +52,7 @@
   }
   
   @media (max-width: 480px) {
-    .tecnologias_container {
-      padding-top: 80px;
-    }
+
   
     .tecnologias_icones_container {
       margin-top: 3rem;

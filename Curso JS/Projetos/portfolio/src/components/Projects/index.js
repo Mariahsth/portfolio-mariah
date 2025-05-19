@@ -3,12 +3,21 @@ import { useSlideInOnView } from "../../hooks/useSlideInOnView";
 import "./Projects.css";
 import { projetos } from "./projectsData";
 import {icones} from '../Tecnologies/icones';
+import { useEffect, useState } from "react";
 
 
 
 
 export default function Projects() {
   const ref = useSlideInOnView("slide-in", { threshold: 0.2 });
+  const [itens, setItens]=useState(6);
+
+  useEffect(() => {
+    const larguraTela = window.innerWidth;
+    if (larguraTela <= 620) {
+      setItens(3);
+    }
+  }, []);
 
   return (
     <div className="projects_container" id="projects">
@@ -19,7 +28,7 @@ export default function Projects() {
       </div>
       <div className="projects_lista_container">
         <ul className="projects_lista">
-          {projetos.map((projeto, index) => (
+          {projetos.filter((proj, index) => index<itens).map((projeto, index) => (
             <Link to={`/project/${projeto.id}`} key={`${projeto.id}-link-${index}`} className='project_link' >
               <li key={`${projeto.id}-li-${index}`} className="project_item">
                 <h3 className="nome_projeto" >{projeto.nome}</h3>
@@ -40,6 +49,9 @@ export default function Projects() {
           ))}
         </ul>
       </div>
+      {itens<=projetos.length && 
+        <p className="projects_vermais" onClick={() => setItens(itens+itens)} >Ver mais</p>
+      }
     </div>
   );
 }

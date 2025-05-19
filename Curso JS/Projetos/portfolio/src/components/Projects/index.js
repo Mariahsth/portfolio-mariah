@@ -11,12 +11,14 @@ import { useEffect, useState } from "react";
 export default function Projects() {
   const ref = useSlideInOnView("slide-in", { threshold: 0.2 });
   const [itens, setItens]=useState(6);
+  const [itensVerMais, setItensVerMais]=useState(6);
 
   useEffect(() => {
     const larguraTela = window.innerWidth;
     if (larguraTela <= 620) {
       setItens(3);
-    }
+      setItensVerMais(3);
+    } 
   }, []);
 
   return (
@@ -50,7 +52,7 @@ export default function Projects() {
         </ul>
       </div>
       {itens<=projetos.length && 
-        <p className="projects_vermais" onClick={() => setItens(itens+itens)} >Ver mais</p>
+        <p className="projects_vermais" onClick={() => setItens(itens+itensVerMais)} >Ver mais</p>
       }
     </div>
   );

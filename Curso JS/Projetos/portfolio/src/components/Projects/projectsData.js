@@ -10,13 +10,14 @@ export const projetos=[
   },
   {
     id:2,
-    nome: "Cinetag",
-    descricao: " Aplicativo de reprodução de videos\n\n  Recursos do aplicativo:\n\n- Reprodução de videos\n\n- Favoritar videos\n\n- Acessar videos favoritos",
-    imagem: "/images/cinetag.PNG",
-    github: "https://github.com/Mariahsth/cinetag",
-    demo: "https://cinetag-one-beige.vercel.app/",
-    tags:"React, JS, Node.js, CSS",
+    nome: "Memoteca",
+    descricao: "Aplicativo organizador de pensamentos e frases que permite cadastrar, listar, editar e deletar pensamentos, incluindo informações como conteúdo e autoria em um banco de dados JSON server.\n\n Recursos do aplicativo:\n\n- Cadastro de pensamentos: Permite adicionar novos pensamentos à lista, inserindo informações como conteúdo e autoria.\n\n- Listagem de pensamentos: Exibe os pensamentos cadastrados, permitindo visualizar o texto e a autoria.\n\n- Edição de pensamentos: Permite editar pensamentos existentes, atualizando as informações conforme necessário.\n\n- Exclusão de pensamentos: Permite remover pensamentos da lista.",
+    imagem: "/images/memoteca.PNG",
+    github: "https://github.com/Mariahsth/memoteca",
+    demo: "https://memoteca-tau.vercel.app/",
+    tags:"JS, Axios, Node.js, CSS",
   },
+
   {
     id:3,
     nome: "Dynamox App",
@@ -37,12 +38,12 @@ export const projetos=[
     },
     {
       id:5,
-      nome: "ByteBank",
-      descricao: " Página de cotação de moedas em tempo real\n\n  Recursos do aplicativo:\n\n- Acessar em tempo real a cotação em reais de dólar, euro e iene \n\n- Interface gráfica e valores da moeda atualizados a cada 5 segundos",
-      imagem: "/images/byte-bank.JPG",
-      github: "https://github.com/Mariahsth/byte-bank",
-      demo: "https://byte-bank-two.vercel.app/",
-      tags:"JS, HTML, CSS",
+      nome: "Réplica do Spotify",
+      descricao: " Projeto Full-stack de aplicativo web que permite acessar e ouvir as principais músicas dos artistas mais ouvidos do Brasil.\n\n  Recursos do aplicativo:\n\n- Acessar artistas e músicas populares\n\n- Acessar albuns de cada artista\n\n- Acessar player da música escolhida\n\n- Reproduzir e pausar música desejada\n\n- Seguir para a póxima música ou para a anterior\n\n- Reproduzir música no modo aleatório",
+      imagem: "/images/spotify.JPG",
+      github: "https://github.com/Mariahsth/spotify",
+      demo: "https://spotify-o6op.onrender.com/",
+      tags:"Node.js, JS, React, Express, MongoDB, Axios, Vite",
     },
     {
       id:6,
@@ -55,21 +56,22 @@ export const projetos=[
     },
     {
       id:7,
-      nome: "Réplica do Spotify",
-      descricao: " Projeto Full-stack de aplicativo web que permite acessar e ouvir as principais músicas dos artistas mais ouvidos do Brasil.\n\n  Recursos do aplicativo:\n\n- Acessar artistas e músicas populares\n\n- Acessar albuns de cada artista\n\n- Acessar player da música escolhida\n\n- Reproduzir e pausar música desejada\n\n- Seguir para a póxima música ou para a anterior\n\n- Reproduzir música no modo aleatório",
-      imagem: "/images/spotify.JPG",
-      github: "https://github.com/Mariahsth/spotify",
-      demo: "https://spotify-o6op.onrender.com/",
-      tags:"Node.js, JS, React, Express, MongoDB, Axios, Vite",
+      nome: "ByteBank",
+      descricao: " Página de cotação de moedas em tempo real\n\n  Recursos do aplicativo:\n\n- Acessar em tempo real a cotação em reais de dólar, euro e iene \n\n- Interface gráfica e valores da moeda atualizados a cada 5 segundos",
+      imagem: "/images/byte-bank.JPG",
+      github: "https://github.com/Mariahsth/byte-bank",
+      demo: "https://byte-bank-two.vercel.app/",
+      tags:"JS, HTML, CSS",
     },
+
     {
       id:8,
-      nome: "Alurabooks",
-      descricao: " Aplicativo de livraria\n\n  Recursos do aplicativo:\n\n",
-      imagem: "/images/alurabooks.PNG",
-      github: "https://github.com/Mariahsth/alurabooks-react",
-      demo: "https://alurabooks-gamma-liart.vercel.app/#",
-      tags:"React, CSS, JS",
+      nome: "AluraDocs",
+      descricao: "Comunicação  de vários usuários em tempo real.\n\nAluraDocs é um aplicativo web organizador de resumos e informações de documentos para temas diversos, que permite adicionar, armazenar, editar e excluir as informações em tempo real em salas compartilhadas.\n\n  Recursos do aplicativo:\n\n- Cadastro de usuários: Permite cadastrar usuários ao banco de dados com senhas criptografadas.\n\n- Login de usuários: Permite realizar o controle de acesso a partir da autenticação dos usuários cadastrados pelo login.\n\n- Adição de documentos: Permite adicionar novos documentos à lista.\n\n- Edição de documentos: Permite editar o conteúdo dos documentos em tempo real em qualquer dispositivo.\n\n- Listagem de documentos: Exibe os documentos e seus conteúdos salvos, buscados através de banco de dados.\n\n- Exclusão de documentos: Permite remover documentos da lista, gerando alerta para quem estiver na sala, e atualizando instantaneamente.",
+      imagem: "/images/aluradocs.PNG",
+      github: "https://github.com/Mariahsth/websocket-socket.io-mongodb",
+      demo: "https://websocket-socket-io-aluradocs.onrender.com/",
+      tags:"Node.js, JS, Express, MongoDB, Socket.io",
     },
     {
       id:9,
@@ -91,6 +93,33 @@ export const projetos=[
     },
     {
       id:11,
+      nome: "VidFlow",
+      descricao: " Aplicativo de reprodução de videos utilizando banco de dados JSON server\n\n  Recursos do aplicativo:\n\n- Reprodução de videos\n\n- Busca de videos por barra de pesquisa\n\n- Filtragem de videos por categoria",
+      imagem: "/images/vidflow.PNG",
+      github: "https://github.com/Mariahsth/NodeJS-Vite-Flow",
+      demo: "https://node-js-vite-flow.vercel.app/#",
+      tags:"JS, Node.js, Axios, Vite",
+    },
+    {
+      id:12,
+      nome: "Alurabooks",
+      descricao: " Aplicativo front-end de livraria\n\nProjeto realizado no curso de responsividade da Alura\n\n  Recursos do aplicativo:\n\n - Menu hamburguer\n\n- Carrossel de imagens\n\n(Mais recursos em desenvolvimento)",
+      imagem: "/images/alurabooks.PNG",
+      github: "https://github.com/Mariahsth/Alurabooks/tree/main",
+      demo: "https://alurabooks-gamma-liart.vercel.app/#",
+      tags:"HTML, CSS",
+    },
+    {
+      id:13,
+      nome: "Cinetag",
+      descricao: " Aplicativo de reprodução de videos\n\n  Recursos do aplicativo:\n\n- Reprodução de videos\n\n- Favoritar videos\n\n- Acessar videos favoritos",
+      imagem: "/images/cinetag.PNG",
+      github: "https://github.com/Mariahsth/cinetag",
+      demo: "https://cinetag-one-beige.vercel.app/",
+      tags:"React, JS, Node.js, CSS",
+    },
+    {
+      id:14,
       nome: "Amigo Secreto",
       descricao: " Sorteador de amigo secreto\n\n  Recursos do aplicativo:\n\n- Controle mínimo de participantes\n\n- Controle de nomes repetidos\n\n- Sorteio de amigo secreto\n\n- Projeto com testes unitários",
       imagem: "/images/amigo-secreto.PNG",
@@ -98,6 +127,9 @@ export const projetos=[
       demo: "https://amigo-secreto-jest-4r2g.vercel.app/",
       tags:"React, TypeScript, Node.js, Jest, CSS",
     },
+
+
+
 
   ]
   

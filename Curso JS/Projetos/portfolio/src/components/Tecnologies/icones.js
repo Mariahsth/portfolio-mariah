@@ -59,4 +59,8 @@ export const icones=[
         nome:"Axios",
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
     },
+    {
+        nome:"Socket.io",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg",
+    },
   ]

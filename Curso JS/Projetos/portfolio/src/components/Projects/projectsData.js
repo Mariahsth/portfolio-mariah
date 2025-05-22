@@ -10,14 +10,14 @@ export const projetos=[
   },
   {
     id:2,
-    nome: "Memoteca",
-    descricao: "Aplicativo organizador de pensamentos e frases que permite cadastrar, listar, editar e deletar pensamentos, incluindo informações como conteúdo e autoria em um banco de dados JSON server.\n\n Recursos do aplicativo:\n\n- Cadastro de pensamentos: Permite adicionar novos pensamentos à lista, inserindo informações como conteúdo e autoria.\n\n- Listagem de pensamentos: Exibe os pensamentos cadastrados, permitindo visualizar o texto e a autoria.\n\n- Edição de pensamentos: Permite editar pensamentos existentes, atualizando as informações conforme necessário.\n\n- Exclusão de pensamentos: Permite remover pensamentos da lista.",
-    imagem: "/images/memoteca.PNG",
-    github: "https://github.com/Mariahsth/memoteca",
-    demo: "https://memoteca-tau.vercel.app/",
-    tags:"JS, Axios, Node.js, CSS",
+    nome: "Adopets",
+    descricao: "Projeto full-stack de página de adoção de pets utilizando requisições HTTP\n\n (Projeto em desenvolvimento) \n\n  Recursos do aplicativo:\n\n- Cadastrar animais\n\n- Editar animais\n\n- Deletar animais\n\n- Favoritar animais\n\n- Filtrar animais favoritos\n\n(Mais recursos em desenvolvimento)",
+    imagem: "/images/adopets.PNG",
+    github: "https://github.com/Mariahsth/ADOPETS/tree/master",
+    demo: "https://adopets-eight.vercel.app/",
+    tags:"JS, HTML, CSS, Node.js, Express, MongoDB, Mongoose",
   },
-
+  
   {
     id:3,
     nome: "Dynamox App",
@@ -25,10 +25,10 @@ export const projetos=[
     imagem: "/images/dynamox.JPG",
     github: "https://github.com/Mariahsth/developer-challenges/tree/mariah-hoffmann",
     demo: "https://developer-challenges-507u.onrender.com/",
-    tags:"TypeScript, React, Redux, Vite, Node.js, MongoDB, Mongoose, MaterialUI",
+    tags:"TypeScript, React, Redux, Vite, Node.js, MongoDB, Mongoose, MaterialUI, Express",
   },
   {
-      id:4,
+    id:4,
       nome: "Aluroni",
       descricao: " Projeto Front-end de site de restaurante italiano \n\n  Recursos do aplicativo:\n\n - Acessar informações sobre cada prato\n\n- Filtrar pratos por categoria\n\n- Buscar pratos por nome\n\n- Ordenar pratos por preço, porção ou quantidade de pessoas servidas",
       imagem: "/images/aluroni.PNG",
@@ -47,12 +47,12 @@ export const projetos=[
     },
     {
       id:6,
-      nome: "Event tracker",
-      descricao: " Aplicativo de calendário para agenda de eventos\n\n  Recursos do aplicativo:\n\n- Calendário interativo\n\n- Buscar eventos salvos no banco de dados\n\n- Criar novos eventos no banco de dados\n\n- Excluir eventos\n\n- Finalizar eventos\n\n- Filtro de eventos por data",
-      imagem: "/images/event-tracker.PNG",
-      github: "https://github.com/Mariahsth/event-tracker",
-      demo: "https://event-tracker-ebon.vercel.app/",
-      tags:"React, TypeScript, Node.js",
+      nome: "Memoteca",
+      descricao: "Aplicativo organizador de pensamentos e frases que permite cadastrar, listar, editar e deletar pensamentos, incluindo informações como conteúdo e autoria em um banco de dados JSON server.\n\n Recursos do aplicativo:\n\n- Cadastro de pensamentos: Permite adicionar novos pensamentos à lista, inserindo informações como conteúdo e autoria.\n\n- Listagem de pensamentos: Exibe os pensamentos cadastrados, permitindo visualizar o texto e a autoria.\n\n- Edição de pensamentos: Permite editar pensamentos existentes, atualizando as informações conforme necessário.\n\n- Exclusão de pensamentos: Permite remover pensamentos da lista.",
+      imagem: "/images/memoteca.PNG",
+      github: "https://github.com/Mariahsth/memoteca",
+      demo: "https://memoteca-tau.vercel.app/",
+      tags:"JS, Axios, Node.js, CSS",
     },
     {
       id:7,
@@ -127,9 +127,18 @@ export const projetos=[
       demo: "https://amigo-secreto-jest-4r2g.vercel.app/",
       tags:"React, TypeScript, Node.js, Jest, CSS",
     },
+    {
+      id:15,
+      nome: "Event tracker",
+      descricao: " Aplicativo de calendário para agenda de eventos\n\n  Recursos do aplicativo:\n\n- Calendário interativo\n\n- Buscar eventos salvos no banco de dados\n\n- Criar novos eventos no banco de dados\n\n- Excluir eventos\n\n- Finalizar eventos\n\n- Filtro de eventos por data",
+      imagem: "/images/event-tracker.PNG",
+      github: "https://github.com/Mariahsth/event-tracker",
+      demo: "https://event-tracker-ebon.vercel.app/",
+      tags:"React, TypeScript, Node.js",
+    },
+    
 
-
-
-
+    
+    
   ]
   

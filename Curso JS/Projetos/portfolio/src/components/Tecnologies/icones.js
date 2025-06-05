@@ -63,4 +63,8 @@ export const icones=[
         nome:"Socket.io",
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg",
     },
+    {
+        nome:"Next.js",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+    },
   ]

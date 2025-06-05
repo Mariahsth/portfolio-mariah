@@ -1,15 +1,7 @@
 export const projetos=[
+
   {
     id:1,
-    nome: "Meteora",
-    descricao: "Projeto de E-commerce de moda (ainda em desenvolvimento)\n\n  Recursos do aplicativo:\n\nNeste estágio de desenvolvimento, o Meteora possui as seguintes funcionalidades:\n\n- Adicionar itens ao carrinho\n\n- Remover itens do carrinho\n\n- Visualizar a página do carrinho\n\n- Deletar itens do carrinho",
-    imagem: "/images/meteora.PNG",
-    github: "https://github.com/Mariahsth/meteora",
-    demo: "https://meteora-sepia.vercel.app/",
-    tags:"React, Vite, JS, Node.js",
-  },
-  {
-    id:2,
     nome: "Adopets",
     descricao: "Projeto full-stack de página de adoção de pets utilizando requisições HTTP\n\n (Projeto em desenvolvimento) \n\n  Recursos do aplicativo:\n\n- Cadastrar animais\n\n- Editar animais\n\n- Deletar animais\n\n- Favoritar animais\n\n- Filtrar animais favoritos\n\n(Mais recursos em desenvolvimento)",
     imagem: "/images/adopets.PNG",
@@ -19,7 +11,7 @@ export const projetos=[
   },
   
   {
-    id:3,
+    id:2,
     nome: "Dynamox App",
     descricao: " Projeto Full-Stack de aplicativo para monitorização de ativos\n\nEsse projeto foi realizado em um desafio de desenvolvimento\n\n  Recursos do aplicativo:\n\n- Autenticação para acessar rotas privadas\n\n- Criar, editar e excluir máquinas\n\n- Criar pontos de monitoramento e sensores para uma máquina existente\n\n- Impedir a configuração dos sensores 'TcAg' e 'TcAs' para máquinas do tipo 'Bomba'\n\n- Listar todos os pontos de monitoramento em uma lista paginada\n\n- Classificar a lista de pontos de monitoramento por qualquer uma de suas colunas em ordem crescente ou decrescente",
     imagem: "/images/dynamox.JPG",
@@ -28,7 +20,25 @@ export const projetos=[
     tags:"TypeScript, React, Redux, Vite, Node.js, MongoDB, Mongoose, MaterialUI, Express",
   },
   {
+    id:3,
+    nome: "Chess Game",
+    descricao: " Jogo de xadrez contra IA utilizando Next.js\n\nEsse projeto foi realizado em um desafio de desenvolvimento\n\n  Recursos do aplicativo:\n\n- Instruções do jogo\n\n- Escolha e preview da escala do tabuleiro\n\n- Captura e movimentos únicos para cada peça\n\n- Vizualização das casas disponíveis para o movimento\n\n- Vizualização da casa anterior ao movimento\n\n- Jogo contra adversário em IA",
+    imagem: "/images/chessGame.PNG",
+    github: "https://github.com/Mariahsth/chess-game",
+    demo: "https://chess-game-one-beta.vercel.app/",
+    tags:"React, TypeScript, Next.js, CSS",
+  },
+  {
     id:4,
+    nome: "Meteora",
+    descricao: "Projeto de E-commerce de moda (ainda em desenvolvimento)\n\n  Recursos do aplicativo:\n\nNeste estágio de desenvolvimento, o Meteora possui as seguintes funcionalidades:\n\n- Adicionar itens ao carrinho\n\n- Remover itens do carrinho\n\n- Visualizar a página do carrinho\n\n- Deletar itens do carrinho",
+    imagem: "/images/meteora.PNG",
+    github: "https://github.com/Mariahsth/meteora",
+    demo: "https://meteora-sepia.vercel.app/",
+    tags:"React, Vite, JS, Node.js",
+  },
+  {
+    id:5,
       nome: "Aluroni",
       descricao: " Projeto Front-end de site de restaurante italiano \n\n  Recursos do aplicativo:\n\n - Acessar informações sobre cada prato\n\n- Filtrar pratos por categoria\n\n- Buscar pratos por nome\n\n- Ordenar pratos por preço, porção ou quantidade de pessoas servidas",
       imagem: "/images/aluroni.PNG",
@@ -37,7 +47,7 @@ export const projetos=[
       tags:"React, TypeScript, Node.js, Jest",
     },
     {
-      id:5,
+      id:6,
       nome: "Réplica do Spotify",
       descricao: " Projeto Full-stack de aplicativo web que permite acessar e ouvir as principais músicas dos artistas mais ouvidos do Brasil.\n\n  Recursos do aplicativo:\n\n- Acessar artistas e músicas populares\n\n- Acessar albuns de cada artista\n\n- Acessar player da música escolhida\n\n- Reproduzir e pausar música desejada\n\n- Seguir para a póxima música ou para a anterior\n\n- Reproduzir música no modo aleatório",
       imagem: "/images/spotify.JPG",
@@ -46,7 +56,7 @@ export const projetos=[
       tags:"Node.js, JS, React, Express, MongoDB, Axios, Vite",
     },
     {
-      id:6,
+      id:7,
       nome: "Memoteca",
       descricao: "Aplicativo organizador de pensamentos e frases que permite cadastrar, listar, editar e deletar pensamentos, incluindo informações como conteúdo e autoria em um banco de dados JSON server.\n\n Recursos do aplicativo:\n\n- Cadastro de pensamentos: Permite adicionar novos pensamentos à lista, inserindo informações como conteúdo e autoria.\n\n- Listagem de pensamentos: Exibe os pensamentos cadastrados, permitindo visualizar o texto e a autoria.\n\n- Edição de pensamentos: Permite editar pensamentos existentes, atualizando as informações conforme necessário.\n\n- Exclusão de pensamentos: Permite remover pensamentos da lista.",
       imagem: "/images/memoteca.PNG",
@@ -55,7 +65,7 @@ export const projetos=[
       tags:"JS, Axios, Node.js, CSS",
     },
     {
-      id:7,
+      id:8,
       nome: "ByteBank",
       descricao: " Página de cotação de moedas em tempo real\n\n  Recursos do aplicativo:\n\n- Acessar em tempo real a cotação em reais de dólar, euro e iene \n\n- Interface gráfica e valores da moeda atualizados a cada 5 segundos",
       imagem: "/images/byte-bank.JPG",
@@ -65,7 +75,7 @@ export const projetos=[
     },
 
     {
-      id:8,
+      id:9,
       nome: "AluraDocs",
       descricao: "Comunicação  de vários usuários em tempo real.\n\nAluraDocs é um aplicativo web organizador de resumos e informações de documentos para temas diversos, que permite adicionar, armazenar, editar e excluir as informações em tempo real em salas compartilhadas.\n\n  Recursos do aplicativo:\n\n- Cadastro de usuários: Permite cadastrar usuários ao banco de dados com senhas criptografadas.\n\n- Login de usuários: Permite realizar o controle de acesso a partir da autenticação dos usuários cadastrados pelo login.\n\n- Adição de documentos: Permite adicionar novos documentos à lista.\n\n- Edição de documentos: Permite editar o conteúdo dos documentos em tempo real em qualquer dispositivo.\n\n- Listagem de documentos: Exibe os documentos e seus conteúdos salvos, buscados através de banco de dados.\n\n- Exclusão de documentos: Permite remover documentos da lista, gerando alerta para quem estiver na sala, e atualizando instantaneamente.",
       imagem: "/images/aluradocs.PNG",
@@ -74,7 +84,7 @@ export const projetos=[
       tags:"Node.js, JS, Express, MongoDB, Socket.io",
     },
     {
-      id:9,
+      id:10,
       nome: "Fokus",
       descricao: " Aplicativo interativo de controle de tarefas\n\n  Recursos do aplicativo:\n\n- Interface temática interativa: Foco, Descanso curto ou descanso longo\n\n- Cronometragem de acordo com o tema\n\n- Reprodução e pausa de música\n\n- Inclusão de atividade na lista de tarefas\n\n- Edição e exclusão de tarefa\n\n- Seleção de tarefa em andamento\n\n- Finalização de tarefa ao final do cronometro",
       imagem: "/images/fokus.PNG",
@@ -83,7 +93,7 @@ export const projetos=[
       tags:"HTML, CSS, JS",
     },
     {
-      id:10,
+      id:11,
       nome: "SpaceApp",
       descricao: " Blog de astronomia\n\n  Recursos do aplicativo:\n\n- Filtrar fotos por tags\n\n- Buscar fotos por barra de pesquisa\n\n- Favoritar fotos\n\n- Visualizar imagem amplificada",
       imagem: "/images/space-app.PNG",
@@ -92,7 +102,7 @@ export const projetos=[
       tags:"React, Vite, Node.js, CSS",
     },
     {
-      id:11,
+      id:12,
       nome: "VidFlow",
       descricao: " Aplicativo de reprodução de videos utilizando banco de dados JSON server\n\n  Recursos do aplicativo:\n\n- Reprodução de videos\n\n- Busca de videos por barra de pesquisa\n\n- Filtragem de videos por categoria",
       imagem: "/images/vidflow.PNG",
@@ -101,7 +111,7 @@ export const projetos=[
       tags:"JS, Node.js, Axios, Vite",
     },
     {
-      id:12,
+      id:13,
       nome: "Alurabooks",
       descricao: " Aplicativo front-end de livraria\n\nProjeto realizado no curso de responsividade da Alura\n\n  Recursos do aplicativo:\n\n - Menu hamburguer\n\n- Carrossel de imagens\n\n(Mais recursos em desenvolvimento)",
       imagem: "/images/alurabooks.PNG",
@@ -110,7 +120,7 @@ export const projetos=[
       tags:"HTML, CSS",
     },
     {
-      id:13,
+      id:14,
       nome: "Cinetag",
       descricao: " Aplicativo de reprodução de videos\n\n  Recursos do aplicativo:\n\n- Reprodução de videos\n\n- Favoritar videos\n\n- Acessar videos favoritos",
       imagem: "/images/cinetag.PNG",
@@ -119,7 +129,7 @@ export const projetos=[
       tags:"React, JS, Node.js, CSS",
     },
     {
-      id:14,
+      id:15,
       nome: "Amigo Secreto",
       descricao: " Sorteador de amigo secreto\n\n  Recursos do aplicativo:\n\n- Controle mínimo de participantes\n\n- Controle de nomes repetidos\n\n- Sorteio de amigo secreto\n\n- Projeto com testes unitários",
       imagem: "/images/amigo-secreto.PNG",
@@ -128,7 +138,7 @@ export const projetos=[
       tags:"React, TypeScript, Node.js, Jest, CSS",
     },
     {
-      id:15,
+      id:16,
       nome: "Event tracker",
       descricao: " Aplicativo de calendário para agenda de eventos\n\n  Recursos do aplicativo:\n\n- Calendário interativo\n\n- Buscar eventos salvos no banco de dados\n\n- Criar novos eventos no banco de dados\n\n- Excluir eventos\n\n- Finalizar eventos\n\n- Filtro de eventos por data",
       imagem: "/images/event-tracker.PNG",
@@ -136,6 +146,7 @@ export const projetos=[
       demo: "https://event-tracker-ebon.vercel.app/",
       tags:"React, TypeScript, Node.js",
     },
+
     
 
     

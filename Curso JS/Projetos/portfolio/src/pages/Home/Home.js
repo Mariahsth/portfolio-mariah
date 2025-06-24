@@ -41,7 +41,7 @@ export default function Home() {
         </div>
         <div className="home_botoes">
                   <a className="botao" href="https://instagram.com/mariahsilveirath"><RiInstagramLine    className='icone' /> Instagram</a>
-                  <a className="botao" href="https://www.linkedin.com/in/mariah-silveira-tagliari-hoffmann-9a067914a/"><AiOutlineLinkedin className='icone'/> Linkedin</a>
+                  <a className="botao" href="https://www.linkedin.com/in/mariah-hoffmann/"><AiOutlineLinkedin className='icone'/> Linkedin</a>
                   <a className="botao" href="https://github.com/Mariahsth"><AiOutlineGithub className='icone'/>  Github</a>
         </div>
       </div>

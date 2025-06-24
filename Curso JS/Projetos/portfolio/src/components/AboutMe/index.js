@@ -64,7 +64,7 @@ export default function AboutMe() {
         </div>
         <img
           src={fotoFormatura}
-          alt="Foto da Mariah na formatura"
+          alt="Foto da Mariah"
           className="about_me_foto"
         />
       </div>

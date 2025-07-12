@@ -67,4 +67,8 @@ export const icones=[
         nome:"Next.js",
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
     },
+    {
+        nome:"Tailwind",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    },
   ]

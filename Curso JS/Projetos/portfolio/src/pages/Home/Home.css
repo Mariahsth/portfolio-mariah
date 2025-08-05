@@ -164,7 +164,7 @@
 
 }
 
-.botao{
+.botao_home{
     font-size: 2rem;
     text-decoration: none;
     display: flex;
@@ -181,10 +181,10 @@
 
 
 
-.botao:hover{
+.botao_home:hover{
     color: var(--green);
     border: 1px solid var(--green);
-    transform: scale(1.1);
+transform: scale(1.1);
 
 }
 
@@ -233,7 +233,7 @@
 @media (max-width: 800px){
     .home_container{
         gap:2em;
-        padding-top: 200px;
+        padding-top: 100px;
     }
 
     .container_foto_texto{
@@ -264,7 +264,7 @@
         flex-direction: column;
         gap: 1em;
     }
-    .botao{
+    .botao_home{
         font-size: 1.5rem;
     }
 }
@@ -274,7 +274,7 @@
         width: 200px;
     }
 
-    .botao{
+    .botao_home{
         font-size: 1.5rem;
     }
 
@@ -288,7 +288,7 @@
     .container_textos>h3{
         font-size: 1rem;
     }
-    .botao{
+    .botao_home{
         font-size: 1rem;
     }
 

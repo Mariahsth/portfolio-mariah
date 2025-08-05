@@ -1,7 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation'; 
-import { Navigation } from 'swiper/modules'; 
+import { Navigation, Pagination } from 'swiper/modules'; 
+import 'swiper/css/pagination';
 
 
 import { Link } from "react-router-dom";
@@ -27,7 +28,8 @@ export default function Projects() {
       </div>
       <div className="projects_lista_container">
         <Swiper
-          modules={[Navigation]}
+          modules={[Navigation, Pagination]}
+          pagination={{ clickable: true }}
           navigation
           slidesPerView={1}
           breakpoints={{

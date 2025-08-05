@@ -146,6 +146,14 @@ export const projetos=[
       demo: "https://event-tracker-ebon.vercel.app/",
       tags:"React, TypeScript, Node.js",
     },
+    {
+      id:17,
+      nome: "ScreenSound",
+      descricao: "Um aplicativo backend utilizando o Swagger em C# .NET para cadastro, gerenciamento e exibição de artistas, músicas e gêneros, com API REST e persistência de dados em banco de dados SQL Server utilizando o Entity Framework Core.\n\n  Recursos do aplicativo:\n\n- Registrar, listar, atualizar e deletar artistas associados aos conjuntos de músicas cadastradas\n\n- Registrar, listar, atualizar e deletar músicas associadas a artistas e gêneros musicais\n\n- Registrar, listar e deletar gêneros musicais associados a músicas cadastradas\n\n- Listar artistas por nome\n\n- Listar músicas de um artista específico\n\n- Listar músicas por ano de lançamento",
+      imagem: "/images/screensound.PNG",
+      github: "https://github.com/Mariahsth/screen-sound-SQL",
+      tags:"C#, .NET, Entity, Swagger",
+    },
 
 
     

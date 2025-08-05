@@ -71,4 +71,20 @@ export const icones=[
         nome:"Tailwind",
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     },
+    {
+        nome:"C#",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+    },
+    {
+        nome:".NET",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg",
+    },
+    {
+        nome:"Entity",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/entityframeworkcore/entityframeworkcore-original.svg",
+    },
+    {
+        nome:"Swagger",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg",
+    },
   ]

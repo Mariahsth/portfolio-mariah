@@ -39,7 +39,7 @@ export default function Project() {
                   src={projeto.imagem}
                   alt={`Preview do projeto ${projeto.nome}`}
                 />
-                <p  >Acessar projeto</p>
+                {projeto.demo && <p  >Acessar projeto</p>}
               </Link>
 
             </div>

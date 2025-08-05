@@ -1,5 +1,4 @@
 import "./AboutMe.css";
-import fotoFormatura from "../../assets/mariah_home3.jpg";
 import { useSlideInOnView } from "../../hooks/useSlideInOnView.js";
 
 export default function AboutMe() {

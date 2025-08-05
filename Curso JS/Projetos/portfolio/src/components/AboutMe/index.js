@@ -38,16 +38,12 @@ export default function AboutMe() {
           <p>
             Depois de formada, atuei 4 anos na área de formação em um cargo de
             liderança, sendo responsável por gerenciar um laboratório e uma
-            equipe de 6 pessoas. Nesse período realizei alguns cursos de pyhton
+            equipe. Nesse período realizei alguns cursos de pyhton
             e tive meu primeiro contato com a programação.
           </p>
           <p>
             Passei a conhecer novas tecnologias, explorando um pouco mais a área
-            web, como{" "}
-            <strong className="texto_destaque">
-              HTML, CSS, JavaScript, Node.js, React, Express
-            </strong>
-            , entre outras, em uma jornada no âmbito Full-stack. Desde então,
+            web em uma jornada no âmbito Full-stack. Desde então,
             tem sido apenas aprendizados atrás de aprendizados.
           </p>
           <p>
@@ -62,11 +58,7 @@ export default function AboutMe() {
             </button>
           </div>
         </div>
-        <img
-          src={fotoFormatura}
-          alt="Foto da Mariah"
-          className="about_me_foto"
-        />
+
       </div>
     </div>
   );

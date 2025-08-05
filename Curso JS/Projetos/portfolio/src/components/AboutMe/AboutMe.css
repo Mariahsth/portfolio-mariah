@@ -60,7 +60,7 @@
   }
   
 h2{
-    font-size: 56px;
+    font-size: 50px;
     color:var(--green);
     background: transparent;
 }
@@ -71,27 +71,15 @@ h3{
     font-size: 36px;
 }
 
-.about_me_texto_foto{
-    display: flex;
-    gap:2em;
-}
+
 
 .about_me_texto_container{
-    font-size: 24px;
+    font-size: 22px;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
-    
+    gap:1rem;
 }
 
-
-
-
-.about_me_foto{
-    width: 500px;
-    height: fit-content;
-    border-radius: 50%;
-}
 
 .texto_destaque{
     color:var(--green);
@@ -107,7 +95,7 @@ h3{
     font-weight: 600;
     background: transparent;
     color: white;
-    
+    margin-top: 1rem;
 }
 
 .botao_CV:hover{
@@ -119,46 +107,18 @@ h3{
 
 }
 
-@media (max-width: 1500px){
-    .about_me_foto{
-        width: 400px;
 
-    }
-    .about_me_container{
-        padding: 3.5em;
-        padding-top: 200px;
-    }
-
-    .about_me_texto_container{
-        gap: 1.5rem;
-        font-size: 22px;
-    }
-    
-
-}
 @media (max-width: 1294px){
-    .about_me_texto_foto{
-        flex-direction: column;
-        gap:2em;
-        align-items: center;
-    }
+
 
     .about_me_container{
         padding: 0.5em;
         padding-top: 200px;
     }
 
-    .about_me_texto_container{
-        gap: 1.3rem;
-    }
-
 }
 @media (max-width: 745px){
-    .about_me_texto_foto{
-        flex-direction: column;
-        gap:2em;
-        align-items: center;
-    }
+
     .about_me_container{
         gap: 3rem;
         margin-top: 8rem;
@@ -169,10 +129,7 @@ h3{
         margin-right: 0.5rem;
     }
 
-    .about_me_foto{
-        width: 300px;
 
-    }
     .about_me_texto_container{
         font-size: 18px;
         gap: 1rem;
@@ -196,30 +153,14 @@ h3{
     h3{
         font-size: 27px;
     }
-    .about_me_foto{
-        width: 200px;
-    }
-    .about_me_texto_container{
-        font-size: 18px;
 
-    }
-    .about_me_container{
-        padding: 3em;
-        padding-top: 200px;
-    
-    }
 }
 @media (max-width: 480px){
 
-    .about_me_foto{
-        width: 150px;
 
-    }
 
     .about_me_container{
-        padding: 1em;
-        padding-top: 200px;
-    
+        padding: 1em;    
     }
 
     .slide-in{

@@ -1,25 +1,22 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation'; 
+import { Navigation } from 'swiper/modules'; 
+
+
 import { Link } from "react-router-dom";
 import { useSlideInOnView } from "../../hooks/useSlideInOnView";
 import "./Projects.css";
 import { projetos } from "./projectsData";
 import {icones} from '../Tecnologies/icones';
-import { useEffect, useState } from "react";
 
 
 
 
 export default function Projects() {
   const ref = useSlideInOnView("slide-in", { threshold: 0.2 });
-  const [itens, setItens]=useState(6);
-  const [itensVerMais, setItensVerMais]=useState(6);
 
-  useEffect(() => {
-    const larguraTela = window.innerWidth;
-    if (larguraTela <= 620) {
-      setItens(3);
-      setItensVerMais(3);
-    } 
-  }, []);
+
 
   return (
     <div className="projects_container" id="projects">
@@ -29,31 +26,46 @@ export default function Projects() {
         </h2>
       </div>
       <div className="projects_lista_container">
-        <ul className="projects_lista">
-          {projetos.filter((proj, index) => index<itens).map((projeto, index) => (
-            <Link to={`/project/${projeto.id}`} key={`${projeto.id}-link-${index}`} className='project_link' >
-              <li key={`${projeto.id}-li-${index}`} className="project_item">
-                <h3 className="nome_projeto" >{projeto.nome}</h3>
-                <img
-                  src={projeto.imagem}
-                  alt={`Preview do projeto ${projeto.nome}`}
-                  className="project_preview"
-                />
-                <div className="container_icone_projeto">
-                  {icones.map((icone, index) => (
-                    projeto.tags.includes(icone.nome) && 
-                      <img key={`${projeto.id}-${index}`} className="icone_projeto" src={icone.url} alt={icone.nome}/>
-                  ))}
+        <Swiper
+          modules={[Navigation]}
+          navigation
+          slidesPerView={1}
+          breakpoints={{
+            760: {
+              slidesPerView: 2,
+            },
+            1150: {
+              slidesPerView: 3,
+            },
+
+          }}
+          className="projects_carousel"
+        >
+
+          {projetos.map((projeto, index) => (
+             <SwiperSlide key={projeto.id}>
+              <Link to={`/project/${projeto.id}`} key={`${projeto.id}-link-${index}`} className='project_link' >
+                <div key={`${projeto.id}-${index}`} className="project_item">
+                  <h3 className="nome_projeto" >{projeto.nome}</h3>
+                  <img
+                    src={projeto.imagem}
+                    alt={`Preview do projeto ${projeto.nome}`}
+                    className="project_preview"
+                  />
+                  <div className="container_icone_projeto">
+                    {icones.map((icone, index) => (
+                      projeto.tags.split(',').map(tag => tag.trim()).includes(icone.nome) && 
+                        <img key={`${projeto.id}-${index}`} className="icone_projeto" src={icone.url} alt={icone.nome}/>
+                    ))}
+                  </div>
+                  <p className="projects_sabermais" >Saiba mais</p>
                 </div>
-                <p className="projects_sabermais" >Saiba mais</p>
-              </li>
-            </Link>
+              </Link>
+            </SwiperSlide>
           ))}
-        </ul>
+        </Swiper>
       </div>
-      {itens<=projetos.length && 
-        <p className="projects_vermais" onClick={() => setItens(itens+itensVerMais)} >Ver mais</p>
-      }
+
     </div>
   );
 }

@@ -32,7 +32,7 @@ export default function Header(){
             </button>
             <nav  >
                 <p ><a className="logo" href="#home">&lt;M/H&gt;</a></p>
-                <ul $isOpen={menuOpen} ref={navRef} className={`header_menu ${menuOpen ? 'open' : 'closed'}`}>
+                <ul ref={navRef} className={`header_menu ${menuOpen ? 'open' : 'closed'}`}>
                     <li><a href="#home" onClick={handleNavClick}>Início</a></li>
                     <li><a href="#about" onClick={handleNavClick}>Sobre mim</a></li>
                     <li><a href="#tecnologies" onClick={handleNavClick}>Tecnologias</a></li>

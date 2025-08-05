@@ -17,7 +17,7 @@ export default function AboutMe() {
         <h2
         ref={slideInRef} className="slide-in"
         >
-          Quem sou eu?
+          Sobre mim
         </h2>
       </div>
       <div className="about_me_texto_foto  slide-out" ref={slideInRef2}>

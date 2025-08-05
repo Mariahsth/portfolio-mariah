@@ -1,5 +1,6 @@
 import "./AboutMe.css";
 import { useSlideInOnView } from "../../hooks/useSlideInOnView.js";
+import Botao from "../Botao/index.js";
 
 export default function AboutMe() {
   const slideInRef = useSlideInOnView("slide-in", { threshold: 0.1 })
@@ -52,9 +53,9 @@ export default function AboutMe() {
           </p>
           <div className="container_CV">
             <p className="texto_CV">Confira meu currículo:</p>
-            <button className="botao_CV" onClick={carregaCV}>
+            <Botao onClick={carregaCV}>
               CV
-            </button>
+            </Botao>
           </div>
         </div>
 

@@ -3,20 +3,23 @@ import 'swiper/css';
 import 'swiper/css/navigation'; 
 import { Navigation, Pagination } from 'swiper/modules'; 
 import 'swiper/css/pagination';
-
-
 import { Link } from "react-router-dom";
 import { useSlideInOnView } from "../../hooks/useSlideInOnView";
 import "./Projects.css";
 import { projetos } from "./projectsData";
 import {icones} from '../Tecnologies/icones';
-
-
+import { useState } from 'react';
+import Botao from '../Botao';
 
 
 export default function Projects() {
   const ref = useSlideInOnView("slide-in", { threshold: 0.2 });
+  const [filter, setFilter]=useState("Todos")
 
+  const handleFilterClick = (event) => {
+    const value = event.target.innerText;
+    setFilter(value);
+  };
 
 
   return (
@@ -25,6 +28,15 @@ export default function Projects() {
         <h2 ref={ref} className="slide-in">
           Projetos
         </h2>
+      </div>
+      <div className='filtros_titulo_container'>
+        <p>Filtrar por:</p>
+        <div className='filtros_container'>
+          <Botao onClick={handleFilterClick}>Todos</Botao>
+          <Botao onClick={handleFilterClick}>Full-Stack</Botao>
+          <Botao onClick={handleFilterClick}>Front-End</Botao>
+          <Botao onClick={handleFilterClick}>Back-End</Botao>
+        </div>
       </div>
       <div className="projects_lista_container">
         <Swiper
@@ -44,7 +56,7 @@ export default function Projects() {
           className="projects_carousel"
         >
 
-          {projetos.map((projeto, index) => (
+          {projetos.filter((project) => filter === "Todos" || project.type === filter).map((projeto, index) => (
              <SwiperSlide key={projeto.id}>
               <Link to={`/project/${projeto.id}`} key={`${projeto.id}-link-${index}`} className='project_link' >
                 <div key={`${projeto.id}-${index}`} className="project_item">

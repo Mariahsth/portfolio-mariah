@@ -7,6 +7,7 @@ export const projetos=[
     github: "https://github.com/Mariahsth/leadSoft-challenge",
     demo: "https://lead-soft-challenge.vercel.app/",
     tags:"React, Next.js, Axios, TypeScript, Node.js, Express, RavenDB",
+    type:"Full-Stack",
   },
 
   {
@@ -17,6 +18,7 @@ export const projetos=[
     github: "https://github.com/Mariahsth/ADOPETS/tree/master",
     demo: "https://adopets-eight.vercel.app/",
     tags:"JS, HTML, CSS, Node.js, Express, MongoDB, Mongoose",
+    type:"Full-Stack",
   },
   
   {
@@ -27,6 +29,7 @@ export const projetos=[
     github: "https://github.com/Mariahsth/developer-challenges/tree/mariah-hoffmann",
     demo: "https://developer-challenges-507u.onrender.com/",
     tags:"TypeScript, React, Redux, Vite, Node.js, MongoDB, Mongoose, MaterialUI, Express",
+    type:"Full-Stack",
   },
   {
     id:4,
@@ -36,6 +39,7 @@ export const projetos=[
     github: "https://github.com/Mariahsth/chess-game",
     demo: "https://chess-game-one-beta.vercel.app/",
     tags:"React, TypeScript, Next.js, CSS",
+    type:"Front-End",
   },
   {
     id:5,
@@ -45,6 +49,7 @@ export const projetos=[
     github: "https://github.com/Mariahsth/meteora",
     demo: "https://meteora-sepia.vercel.app/",
     tags:"React, Vite, JS, Node.js",
+    type:"Front-End",
   },
   {
     id:6,
@@ -54,6 +59,7 @@ export const projetos=[
       github: "https://github.com/Mariahsth/aluroni",
       demo: "https://aluroni-snowy.vercel.app/",
       tags:"React, TypeScript, Node.js, Jest",
+      type:"Front-End",
     },
     {
       id:7,
@@ -63,6 +69,7 @@ export const projetos=[
       github: "https://github.com/Mariahsth/spotify",
       demo: "https://spotify-o6op.onrender.com/",
       tags:"Node.js, JS, React, Express, MongoDB, Axios, Vite",
+      type:"Full-Stack",
     },
     {
       id:8,
@@ -72,6 +79,7 @@ export const projetos=[
       github: "https://github.com/Mariahsth/memoteca",
       demo: "https://memoteca-tau.vercel.app/",
       tags:"JS, Axios, Node.js, CSS",
+      type:"Front-End",
     },
     {
       id:9,
@@ -81,6 +89,7 @@ export const projetos=[
       github: "https://github.com/Mariahsth/byte-bank",
       demo: "https://byte-bank-two.vercel.app/",
       tags:"JS, HTML, CSS",
+      type:"Front-End",
     },
 
     {
@@ -91,6 +100,7 @@ export const projetos=[
       github: "https://github.com/Mariahsth/websocket-socket.io-mongodb",
       demo: "https://websocket-socket-io-aluradocs.onrender.com/",
       tags:"Node.js, JS, Express, MongoDB, Socket.io",
+      type:"Full-Stack",
     },
     {
       id:11,
@@ -100,6 +110,7 @@ export const projetos=[
       github: "https://github.com/Mariahsth/projeto_Fokus",
       demo: "https://projeto-fokus-hazel.vercel.app/",
       tags:"HTML, CSS, JS",
+      type:"Front-End",
     },
     {
       id:12,
@@ -109,6 +120,7 @@ export const projetos=[
       github: "https://github.com/Mariahsth/space-app",
       demo: "https://space-app-nine-pi.vercel.app/",
       tags:"React, Vite, Node.js, CSS",
+      type:"Front-End",
     },
     {
       id:13,
@@ -118,6 +130,7 @@ export const projetos=[
       github: "https://github.com/Mariahsth/NodeJS-Vite-Flow",
       demo: "https://node-js-vite-flow.vercel.app/#",
       tags:"JS, Node.js, Axios, Vite",
+      type:"Front-End",
     },
     {
       id:14,
@@ -127,6 +140,7 @@ export const projetos=[
       github: "https://github.com/Mariahsth/Alurabooks/tree/main",
       demo: "https://alurabooks-gamma-liart.vercel.app/#",
       tags:"HTML, CSS",
+      type:"Front-End",
     },
     {
       id:15,
@@ -136,6 +150,7 @@ export const projetos=[
       github: "https://github.com/Mariahsth/cinetag",
       demo: "https://cinetag-one-beige.vercel.app/",
       tags:"React, JS, Node.js, CSS",
+      type:"Front-End",
     },
     {
       id:16,
@@ -145,6 +160,7 @@ export const projetos=[
       github: "https://github.com/Mariahsth/event-tracker",
       demo: "https://event-tracker-ebon.vercel.app/",
       tags:"React, TypeScript, Node.js",
+      type:"Full-Stack",
     },
     {
       id:17,
@@ -153,6 +169,7 @@ export const projetos=[
       imagem: "/images/screensound.PNG",
       github: "https://github.com/Mariahsth/screen-sound-SQL",
       tags:"C#, .NET, Entity, Swagger",
+      type:"Back-End",
     },
 
 

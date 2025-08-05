@@ -7,6 +7,7 @@ import Projects from "../../components/Projects";
 import { useEffect, useState } from "react";
 import Tecnologies from "../../components/Tecnologies";
 import Header from "../../components/Header/index";
+import ParticlesBackground from "../../components/Particles/ParticlesBackground";
 
 export default function Home() {
   const [animationKey, setAnimationKey] = useState(0);
@@ -21,43 +22,52 @@ export default function Home() {
 
   return (
     <>
-      <Header />
-      <div className="home_container" id="home">
-        <div className="container_foto_texto">
-          <div className="home_foto_container">
-            <img
-              className="foto_mariah"
-              src={fotoMariah}
-              alt="foto de Mariah"
-            />
+      <ParticlesBackground />
+      <div style={{
+        position: 'relative',
+        zIndex: 1, 
+        width: '100%',
+        height: '100%',
+        pointerEvents: 'none',
+      }}>
+        <Header />
+        <div className="home_container" id="home">
+          <div className="container_foto_texto">
+            <div className="home_foto_container">
+              <img
+                className="foto_mariah"
+                src={fotoMariah}
+                alt="foto de Mariah"
+              />
+            </div>
+            <div className="container_textos">
+              <h1 key={animationKey} className="typewriter_container_loop">
+                <span className="typewriter linha1">&lt;Mariah</span>
+                <br />
+                <span className="typewriter linha2">Hoffmann/&gt;</span>
+              </h1>
+              <h3>Desenvolvedora web</h3>
+            </div>
           </div>
-          <div className="container_textos">
-            <h1 key={animationKey} className="typewriter_container_loop">
-              <span className="typewriter linha1">&lt;Mariah</span>
-              <br />
-              <span className="typewriter linha2">Hoffmann/&gt;</span>
-            </h1>
-            <h3>Desenvolvedora web</h3>
+          <div className="home_botoes">
+            <a className="botao_home" href="https://instagram.com/mariahsilveirath">
+              <RiInstagramLine className="icone" /> Instagram
+            </a>
+            <a
+              className="botao_home"
+              href="https://www.linkedin.com/in/mariah-hoffmann/"
+            >
+              <AiOutlineLinkedin className="icone" /> Linkedin
+            </a>
+            <a className="botao_home" href="https://github.com/Mariahsth">
+              <AiOutlineGithub className="icone" /> Github
+            </a>
           </div>
         </div>
-        <div className="home_botoes">
-          <a className="botao_home" href="https://instagram.com/mariahsilveirath">
-            <RiInstagramLine className="icone" /> Instagram
-          </a>
-          <a
-            className="botao_home"
-            href="https://www.linkedin.com/in/mariah-hoffmann/"
-          >
-            <AiOutlineLinkedin className="icone" /> Linkedin
-          </a>
-          <a className="botao_home" href="https://github.com/Mariahsth">
-            <AiOutlineGithub className="icone" /> Github
-          </a>
-        </div>
+        <AboutMe />
+        <Tecnologies />
+        <Projects />
       </div>
-      <AboutMe />
-      <Tecnologies />
-      <Projects />
     </>
   );
 }

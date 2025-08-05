@@ -177,6 +177,7 @@
     color: white;
     background-image: linear-gradient(to bottom, var(--purple-1), var(--purple-2));
     background-attachment: fixed;
+    pointer-events: auto;
 }
 
 
@@ -266,6 +267,7 @@ transform: scale(1.1);
     }
     .botao_home{
         font-size: 1.5rem;
+        
     }
 }
 

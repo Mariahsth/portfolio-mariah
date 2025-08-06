@@ -74,10 +74,10 @@ h3{
 
 
 .about_me_texto_container{
-    font-size: 22px;
+    font-size: 24px;
     display: flex;
     flex-direction: column;
-    gap:1rem;
+    gap:1.2rem;
 }
 
 

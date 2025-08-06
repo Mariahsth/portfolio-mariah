@@ -30,12 +30,6 @@ export default function AboutMe() {
             <strong className="texto_destaque">desenvolvimento web</strong>.
           </p>
           <p>
-            Durante a graduação, ainda sem saber que trabalharia com
-            programação, tive a oportunidade de estagiar em 3 grandes empresas e
-            2 laboratórios da universidade, além de realizar intercâmbio de 1
-            ano na França.
-          </p>
-          <p>
             Depois de formada, atuei 4 anos na área de formação em um cargo de
             liderança, sendo responsável por gerenciar um laboratório e uma
             equipe. Nesse período realizei alguns cursos de pyhton
@@ -43,8 +37,7 @@ export default function AboutMe() {
           </p>
           <p>
             Passei a conhecer novas tecnologias, explorando um pouco mais a área
-            web em uma jornada no âmbito Full-stack. Desde então,
-            tem sido apenas aprendizados atrás de aprendizados.
+            web em uma jornada no âmbito Full-stack. 
           </p>
           <p>
             Hoje sou muito feliz de trazer a experiência de dev mais próxima da

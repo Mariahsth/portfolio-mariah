@@ -53,8 +53,7 @@ footer {
 @media (max-width: 600px){
 
     .container_textos_footer{
-        gap:0.3rem;
-        padding: 1rem;
+
         font-size: 12px;
     }
 

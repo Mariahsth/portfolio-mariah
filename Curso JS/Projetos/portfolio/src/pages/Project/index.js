@@ -3,9 +3,9 @@ import "./Project.css";
 import { projetos } from "../../components/Projects/projectsData";
 import { AiOutlineGithub } from "react-icons/ai";
 import { icones } from "../../components/Tecnologies/icones";
-import { FaLaptopCode, FaCog } from 'react-icons/fa';
 import { useSlideInOnView } from "../../hooks/useSlideInOnView";
 import { useEffect } from "react";
+import ParticlesBackground from "../../components/Particles/ParticlesBackground";
 
 
 export default function Project() {
@@ -21,6 +21,14 @@ export default function Project() {
 
   return (
     <div className="container_project">
+      <ParticlesBackground />
+      <div style={{
+        position: 'relative',
+        zIndex: 1, 
+        width: '100%',
+        height: '100%',
+        pointerEvents: 'none',
+      }}>
       <div className="container_voltar">
         <p className="project_voltar" onClick={() => navigate(-1)}>
           {" "}
@@ -70,18 +78,13 @@ export default function Project() {
                   }`}
                   key={index}
                 >
-                  {paragrafo.includes("Recursos do aplicativo") ? (
-                    <>
-                      <FaCog style={{ marginRight: '0.5rem', background:'transparent' }} />
+                  
                       {paragrafo}
-                    </>
-                    ) : (
-                      paragrafo
-                    )}
+                   
                 </p>
               ))}
               <p className="texto_descricao texto_destacado">
-              <FaLaptopCode  style={{ marginRight: '0.5rem', background:'transparent'  }}  />
+              
                 Principais tecnologias utilizadas:
               </p>
 
@@ -112,6 +115,7 @@ export default function Project() {
 
         </div>
 
+      </div>
       </div>
     </div>
   );

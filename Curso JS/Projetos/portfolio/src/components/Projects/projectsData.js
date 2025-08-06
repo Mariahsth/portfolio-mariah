@@ -39,7 +39,7 @@ export const projetos=[
     imagem: "/images/meteora.PNG",
     github: "https://github.com/Mariahsth/meteora",
     demo: "https://meteora-sepia.vercel.app/",
-    tags:"React, Vite, JS, Node.js",
+    tags:"React, Vite, JS",
     type:"Front-End",
   },
   {
@@ -49,7 +49,7 @@ export const projetos=[
       imagem: "/images/aluroni.PNG",
       github: "https://github.com/Mariahsth/aluroni",
       demo: "https://aluroni-snowy.vercel.app/",
-      tags:"React, TypeScript, Node.js, Jest",
+      tags:"React, TypeScript, Jest",
       type:"Front-End",
     },
   {
@@ -120,7 +120,7 @@ export const projetos=[
       imagem: "/images/space-app.PNG",
       github: "https://github.com/Mariahsth/space-app",
       demo: "https://space-app-nine-pi.vercel.app/",
-      tags:"React, Vite, Node.js, CSS",
+      tags:"React, Vite, JS, CSS",
       type:"Front-End",
     },
     {
@@ -150,7 +150,7 @@ export const projetos=[
       imagem: "/images/cinetag.PNG",
       github: "https://github.com/Mariahsth/cinetag",
       demo: "https://cinetag-one-beige.vercel.app/",
-      tags:"React, JS, Node.js, CSS",
+      tags:"React, JS, CSS",
       type:"Front-End",
     },
     {

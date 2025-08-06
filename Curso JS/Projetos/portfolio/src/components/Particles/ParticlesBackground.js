@@ -1,4 +1,3 @@
-// src/components/ParticlesBackground.jsx
 import React from 'react';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
@@ -10,7 +9,7 @@ export default function ParticlesBackground() {
   const particlesOptions = {
     particles: {
       number: {
-        value: 20,
+        value: 30,
         density: {
           enable: true,
           value_area: 1000,
@@ -123,7 +122,7 @@ export default function ParticlesBackground() {
   init={particlesInit}
   options={particlesOptions}
   style={{
-    position: "fixed", 
+    position: "absolute", 
       top: 0,
       left: 0,
       width: "100%",

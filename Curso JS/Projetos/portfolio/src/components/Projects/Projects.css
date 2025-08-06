@@ -257,7 +257,11 @@
 }
 }
 @media (max-width: 640px){
+  .projects_container{
+    padding-top: 100px;
+    margin-top: 2rem;
 
+}
 
   .dropdown_filtro {
     display: block;

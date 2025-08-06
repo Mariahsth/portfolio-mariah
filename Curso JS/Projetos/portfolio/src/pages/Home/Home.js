@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import Tecnologies from "../../components/Tecnologies";
 import Header from "../../components/Header/index";
 import ParticlesBackground from "../../components/Particles/ParticlesBackground";
+import Footer from "../../components/Footer";
 
 export default function Home() {
   const [animationKey, setAnimationKey] = useState(0);
@@ -67,6 +68,7 @@ export default function Home() {
         <AboutMe />
         <Tecnologies />
         <Projects />
+        <Footer/>
       </div>
     </>
   );

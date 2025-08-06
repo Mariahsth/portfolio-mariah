@@ -143,10 +143,10 @@ header a:hover {
     padding: 1rem 0;
     z-index: 999;
     background-image: linear-gradient(
-    to bottom,
-    var(--purple-1),
-    var(--purple-2)
-  );
+      to bottom,
+      rgba(26, 12, 36, 0.7),
+      rgba(53, 28, 77, 0.7)
+    );
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;

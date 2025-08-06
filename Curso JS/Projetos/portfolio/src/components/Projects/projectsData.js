@@ -31,18 +31,9 @@ export const projetos=[
     tags:"TypeScript, React, Redux, Vite, Node.js, MongoDB, Mongoose, MaterialUI, Express",
     type:"Full-Stack",
   },
+
   {
     id:4,
-    nome: "Chess Game",
-    descricao: " Jogo de xadrez contra IA utilizando Next.js\n\nEsse projeto foi realizado em um desafio de desenvolvimento\n\n  Recursos do aplicativo:\n\n- Instruções do jogo\n\n- Escolha e preview da escala do tabuleiro\n\n- Captura e movimentos únicos para cada peça\n\n- Vizualização das casas disponíveis para o movimento\n\n- Vizualização da casa anterior ao movimento\n\n- Jogo contra adversário em IA",
-    imagem: "/images/chessGame.PNG",
-    github: "https://github.com/Mariahsth/chess-game",
-    demo: "https://chess-game-one-beta.vercel.app/",
-    tags:"React, TypeScript, Next.js, CSS",
-    type:"Front-End",
-  },
-  {
-    id:5,
     nome: "Meteora",
     descricao: "Projeto de E-commerce de moda (ainda em desenvolvimento)\n\n  Recursos do aplicativo:\n\nNeste estágio de desenvolvimento, o Meteora possui as seguintes funcionalidades:\n\n- Adicionar itens ao carrinho\n\n- Remover itens do carrinho\n\n- Visualizar a página do carrinho\n\n- Deletar itens do carrinho",
     imagem: "/images/meteora.PNG",
@@ -52,7 +43,7 @@ export const projetos=[
     type:"Front-End",
   },
   {
-    id:6,
+    id:5,
       nome: "Aluroni",
       descricao: " Projeto Front-end de site de restaurante italiano \n\n  Recursos do aplicativo:\n\n - Acessar informações sobre cada prato\n\n- Filtrar pratos por categoria\n\n- Buscar pratos por nome\n\n- Ordenar pratos por preço, porção ou quantidade de pessoas servidas",
       imagem: "/images/aluroni.PNG",
@@ -61,6 +52,16 @@ export const projetos=[
       tags:"React, TypeScript, Node.js, Jest",
       type:"Front-End",
     },
+  {
+    id:6,
+    nome: "Chess Game",
+    descricao: " Jogo de xadrez contra IA utilizando Next.js\n\nEsse projeto foi realizado em um desafio de desenvolvimento\n\n  Recursos do aplicativo:\n\n- Instruções do jogo\n\n- Escolha e preview da escala do tabuleiro\n\n- Captura e movimentos únicos para cada peça\n\n- Vizualização das casas disponíveis para o movimento\n\n- Vizualização da casa anterior ao movimento\n\n- Jogo contra adversário em IA",
+    imagem: "/images/chessGame.PNG",
+    github: "https://github.com/Mariahsth/chess-game",
+    demo: "https://chess-game-one-beta.vercel.app/",
+    tags:"React, TypeScript, Next.js, CSS",
+    type:"Front-End",
+  },
     {
       id:7,
       nome: "Réplica do Spotify",
@@ -79,7 +80,7 @@ export const projetos=[
       github: "https://github.com/Mariahsth/memoteca",
       demo: "https://memoteca-tau.vercel.app/",
       tags:"JS, Axios, Node.js, CSS",
-      type:"Front-End",
+      type:"Full-Stack",
     },
     {
       id:9,
@@ -130,7 +131,7 @@ export const projetos=[
       github: "https://github.com/Mariahsth/NodeJS-Vite-Flow",
       demo: "https://node-js-vite-flow.vercel.app/#",
       tags:"JS, Node.js, Axios, Vite",
-      type:"Front-End",
+      type:"Full-Stack",
     },
     {
       id:14,

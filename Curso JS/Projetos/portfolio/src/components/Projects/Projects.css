@@ -215,6 +215,8 @@
 .dropdown_item.active {
   background-color: var(--purple-1);
   color: var(--green);
+  border-radius: 8px;
+
 }
 
 

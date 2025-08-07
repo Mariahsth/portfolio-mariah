@@ -9,20 +9,29 @@ export const projetos=[
     tags:"React, Next.js, Axios, TypeScript, Node.js, Express, RavenDB",
     type:"Full-Stack",
   },
-
   {
     id:2,
-    nome: "Adopets",
-    descricao: "Projeto full-stack de página de adoção de pets utilizando requisições HTTP\n\n (Projeto em desenvolvimento) \n\n  Recursos do aplicativo:\n\n- Cadastrar animais\n\n- Editar animais\n\n- Deletar animais\n\n- Favoritar animais\n\n- Filtrar animais favoritos\n\n(Mais recursos em desenvolvimento)",
-    imagem: "/images/adopets.PNG",
-    github: "https://github.com/Mariahsth/ADOPETS/tree/master",
-    demo: "https://adopets-eight.vercel.app/",
-    tags:"JS, HTML, CSS, Node.js, Express, MongoDB, Mongoose",
+    nome: "Meteora",
+    descricao: "Projeto de E-commerce de moda (ainda em desenvolvimento)\n\n  Recursos do aplicativo:\n\nNeste estágio de desenvolvimento, o Meteora possui as seguintes funcionalidades:\n\n- Adicionar itens ao carrinho\n\n- Remover itens do carrinho\n\n- Visualizar a página do carrinho\n\n- Deletar itens do carrinho",
+    imagem: "/images/meteora.PNG",
+    github: "https://github.com/Mariahsth/meteora",
+    demo: "https://meteora-sepia.vercel.app/",
+    tags:"React, Vite, JS",
+    type:"Front-End",
+  },
+  {
+    id:3,
+    nome: "Réplica do Spotify",
+    descricao: " Projeto Full-stack de aplicativo web que permite acessar e ouvir as principais músicas dos artistas mais ouvidos do Brasil.\n\n  Recursos do aplicativo:\n\n- Acessar artistas e músicas populares\n\n- Acessar albuns de cada artista\n\n- Acessar player da música escolhida\n\n- Reproduzir e pausar música desejada\n\n- Seguir para a póxima música ou para a anterior\n\n- Reproduzir música no modo aleatório",
+    imagem: "/images/spotify.JPG",
+    github: "https://github.com/Mariahsth/spotify",
+    demo: "https://spotify-o6op.onrender.com/",
+    tags:"Node.js, JS, React, Express, MongoDB, Axios, Vite",
     type:"Full-Stack",
   },
   
   {
-    id:3,
+    id:4,
     nome: "Dynamox App",
     descricao: " Projeto Full-Stack de aplicativo para monitorização de ativos\n\nEsse projeto foi realizado em um desafio de desenvolvimento\n\n  Recursos do aplicativo:\n\n- Autenticação para acessar rotas privadas\n\n- Criar, editar e excluir máquinas\n\n- Criar pontos de monitoramento e sensores para uma máquina existente\n\n- Impedir a configuração dos sensores 'TcAg' e 'TcAs' para máquinas do tipo 'Bomba'\n\n- Listar todos os pontos de monitoramento em uma lista paginada\n\n- Classificar a lista de pontos de monitoramento por qualquer uma de suas colunas em ordem crescente ou decrescente",
     imagem: "/images/dynamox.JPG",
@@ -32,16 +41,7 @@ export const projetos=[
     type:"Full-Stack",
   },
 
-  {
-    id:4,
-    nome: "Meteora",
-    descricao: "Projeto de E-commerce de moda (ainda em desenvolvimento)\n\n  Recursos do aplicativo:\n\nNeste estágio de desenvolvimento, o Meteora possui as seguintes funcionalidades:\n\n- Adicionar itens ao carrinho\n\n- Remover itens do carrinho\n\n- Visualizar a página do carrinho\n\n- Deletar itens do carrinho",
-    imagem: "/images/meteora.PNG",
-    github: "https://github.com/Mariahsth/meteora",
-    demo: "https://meteora-sepia.vercel.app/",
-    tags:"React, Vite, JS",
-    type:"Front-End",
-  },
+
   {
     id:5,
       nome: "Aluroni",
@@ -62,14 +62,15 @@ export const projetos=[
     tags:"React, TypeScript, Next.js, CSS",
     type:"Front-End",
   },
+
     {
       id:7,
-      nome: "Réplica do Spotify",
-      descricao: " Projeto Full-stack de aplicativo web que permite acessar e ouvir as principais músicas dos artistas mais ouvidos do Brasil.\n\n  Recursos do aplicativo:\n\n- Acessar artistas e músicas populares\n\n- Acessar albuns de cada artista\n\n- Acessar player da música escolhida\n\n- Reproduzir e pausar música desejada\n\n- Seguir para a póxima música ou para a anterior\n\n- Reproduzir música no modo aleatório",
-      imagem: "/images/spotify.JPG",
-      github: "https://github.com/Mariahsth/spotify",
-      demo: "https://spotify-o6op.onrender.com/",
-      tags:"Node.js, JS, React, Express, MongoDB, Axios, Vite",
+      nome: "Adopets",
+      descricao: "Projeto full-stack de página de adoção de pets utilizando requisições HTTP\n\n (Projeto em desenvolvimento) \n\n  Recursos do aplicativo:\n\n- Cadastrar animais\n\n- Editar animais\n\n- Deletar animais\n\n- Favoritar animais\n\n- Filtrar animais favoritos\n\n(Mais recursos em desenvolvimento)",
+      imagem: "/images/adopets.PNG",
+      github: "https://github.com/Mariahsth/ADOPETS/tree/master",
+      demo: "https://adopets-eight.vercel.app/",
+      tags:"JS, HTML, CSS, Node.js, Express, MongoDB, Mongoose",
       type:"Full-Stack",
     },
     {

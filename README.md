@@ -1,6 +1,6 @@
 # Portfólio profissional
 
-![Video_250523105524](https://github.com/user-attachments/assets/d5d4ab7b-fe86-4f11-9acd-b3c5708e5128)
+![Video_250806143739](https://github.com/user-attachments/assets/079459c9-dc2c-4d65-86ea-e4ebda1ec939)
 
 Página que reúne os projetos pessoais desenvolvidos como desenvolvedora web
 
@@ -8,6 +8,8 @@ Página que reúne os projetos pessoais desenvolvidos como desenvolvedora web
 * React
 * CSS
 * JavaScript
-* Node.js
+* Swiper
+* Particles
+
 
   

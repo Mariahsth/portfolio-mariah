@@ -29,17 +29,18 @@ export const projetos=[
     tags:"Node.js, JS, React, Express, MongoDB, Axios, Vite",
     type:"Full-Stack",
   },
-  
   {
     id:4,
-    nome: "Dynamox App",
-    descricao: " Projeto Full-Stack de aplicativo para monitorização de ativos\n\nEsse projeto foi realizado em um desafio de desenvolvimento\n\n  Recursos do aplicativo:\n\n- Autenticação para acessar rotas privadas\n\n- Criar, editar e excluir máquinas\n\n- Criar pontos de monitoramento e sensores para uma máquina existente\n\n- Impedir a configuração dos sensores 'TcAg' e 'TcAs' para máquinas do tipo 'Bomba'\n\n- Listar todos os pontos de monitoramento em uma lista paginada\n\n- Classificar a lista de pontos de monitoramento por qualquer uma de suas colunas em ordem crescente ou decrescente",
-    imagem: "/images/dynamox.JPG",
-    github: "https://github.com/Mariahsth/developer-challenges/tree/mariah-hoffmann",
-    demo: "https://developer-challenges-507u.onrender.com/",
-    tags:"TypeScript, React, Redux, Vite, Node.js, MongoDB, Mongoose, MaterialUI, Express",
+    nome: "Adopets",
+    descricao: "Projeto full-stack de página de adoção de pets utilizando requisições HTTP e banco de dados NoSQL\n\n (Projeto em desenvolvimento) \n\n  Recursos do aplicativo:\n\n- Cadastrar animais\n\n- Editar animais\n\n- Deletar animais\n\n- Favoritar animais\n\n- Filtrar animais favoritos\n\n(Mais recursos em desenvolvimento)",
+    imagem: "/images/adopets.PNG",
+    github: "https://github.com/Mariahsth/ADOPETS/tree/master",
+    demo: "https://adopets-eight.vercel.app/",
+    tags:"JS, HTML, CSS, Node.js, Express, MongoDB, Mongoose",
     type:"Full-Stack",
   },
+  
+
 
 
   {
@@ -62,17 +63,17 @@ export const projetos=[
     tags:"React, TypeScript, Next.js, CSS",
     type:"Front-End",
   },
+  {
+    id:7,
+    nome: "Dynamox App",
+    descricao: " Projeto Full-Stack de aplicativo para monitorização de ativos\n\nEsse projeto foi realizado em um desafio de desenvolvimento\n\n  Recursos do aplicativo:\n\n- Autenticação para acessar rotas privadas\n\n- Criar, editar e excluir máquinas\n\n- Criar pontos de monitoramento e sensores para uma máquina existente\n\n- Impedir a configuração dos sensores 'TcAg' e 'TcAs' para máquinas do tipo 'Bomba'\n\n- Listar todos os pontos de monitoramento em uma lista paginada\n\n- Classificar a lista de pontos de monitoramento por qualquer uma de suas colunas em ordem crescente ou decrescente",
+    imagem: "/images/dynamox.JPG",
+    github: "https://github.com/Mariahsth/developer-challenges/tree/mariah-hoffmann",
+    demo: "https://developer-challenges-507u.onrender.com/",
+    tags:"TypeScript, React, Redux, Vite, Node.js, MongoDB, Mongoose, MaterialUI, Express",
+    type:"Full-Stack",
+  },
 
-    {
-      id:7,
-      nome: "Adopets",
-      descricao: "Projeto full-stack de página de adoção de pets utilizando requisições HTTP\n\n (Projeto em desenvolvimento) \n\n  Recursos do aplicativo:\n\n- Cadastrar animais\n\n- Editar animais\n\n- Deletar animais\n\n- Favoritar animais\n\n- Filtrar animais favoritos\n\n(Mais recursos em desenvolvimento)",
-      imagem: "/images/adopets.PNG",
-      github: "https://github.com/Mariahsth/ADOPETS/tree/master",
-      demo: "https://adopets-eight.vercel.app/",
-      tags:"JS, HTML, CSS, Node.js, Express, MongoDB, Mongoose",
-      type:"Full-Stack",
-    },
     {
       id:8,
       nome: "Memoteca",

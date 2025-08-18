@@ -135,7 +135,7 @@ export const projetos=[
       id:14,
       nome: "Gerenciamento de cursos",
       descricao: "Um aplicativo backend para gerenciamento de cursos com construção de 4 entidades relacionais no SQL: Pessoas, Cursos, Matriculas e Categorias\n\n  Recursos do aplicativo:\n\n- Cadastrar, atualizar, deletar e consultar cursos, categorias e pessoas\n\n- Cadastrar, atualizar, deletar e consultar matriculas (ativas, por estudante ou por cursos lotados)\n\n- Consultar usuários ativos\n\n- Validação de formulários no backend\n\n- Consultar turmas abertas por intervalo de data\n\n- Cancelamento automático de matriculas ao desativar cadastro de estudante\n\n- Outros requisitos no README do projeto",
-      imagem: "/images/gerenciamento-cursos.PNG",
+      imagem: "/images/gerenciamentoCursos.PNG",
       github: "https://github.com/Mariahsth/ORM_Node_Sequelize_SQlite",
       tags:"Node.js, Express, SQLite, Sequelize",
       type:"Back-End",

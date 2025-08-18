@@ -87,4 +87,12 @@ export const icones=[
         nome:"Swagger",
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg",
     },
+    {
+        nome:"SQLite",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg",
+    },
+    {
+        nome:"Sequelize",
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original.svg",
+    },
   ]

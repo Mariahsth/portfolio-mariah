@@ -39,10 +39,6 @@ export const projetos=[
     tags:"JS, HTML, CSS, Node.js, Express, MongoDB, Mongoose",
     type:"Full-Stack",
   },
-  
-
-
-
   {
     id:5,
       nome: "Aluroni",
@@ -107,26 +103,6 @@ export const projetos=[
     },
     {
       id:11,
-      nome: "Fokus",
-      descricao: " Aplicativo interativo de controle de tarefas\n\n  Recursos do aplicativo:\n\n- Interface temática interativa: Foco, Descanso curto ou descanso longo\n\n- Cronometragem de acordo com o tema\n\n- Reprodução e pausa de música\n\n- Inclusão de atividade na lista de tarefas\n\n- Edição e exclusão de tarefa\n\n- Seleção de tarefa em andamento\n\n- Finalização de tarefa ao final do cronometro",
-      imagem: "/images/fokus.PNG",
-      github: "https://github.com/Mariahsth/projeto_Fokus",
-      demo: "https://projeto-fokus-hazel.vercel.app/",
-      tags:"HTML, CSS, JS",
-      type:"Front-End",
-    },
-    {
-      id:12,
-      nome: "SpaceApp",
-      descricao: " Blog de astronomia\n\n  Recursos do aplicativo:\n\n- Filtrar fotos por tags\n\n- Buscar fotos por barra de pesquisa\n\n- Favoritar fotos\n\n- Visualizar imagem amplificada",
-      imagem: "/images/space-app.PNG",
-      github: "https://github.com/Mariahsth/space-app",
-      demo: "https://space-app-nine-pi.vercel.app/",
-      tags:"React, Vite, JS, CSS",
-      type:"Front-End",
-    },
-    {
-      id:13,
       nome: "VidFlow",
       descricao: " Aplicativo de reprodução de videos utilizando banco de dados JSON server\n\n  Recursos do aplicativo:\n\n- Reprodução de videos\n\n- Busca de videos por barra de pesquisa\n\n- Filtragem de videos por categoria",
       imagem: "/images/vidflow.PNG",
@@ -136,7 +112,7 @@ export const projetos=[
       type:"Full-Stack",
     },
     {
-      id:14,
+      id:12,
       nome: "Alurabooks",
       descricao: " Aplicativo front-end de livraria\n\nProjeto realizado no curso de responsividade da Alura\n\n  Recursos do aplicativo:\n\n - Menu hamburguer\n\n- Carrossel de imagens\n\n(Mais recursos em desenvolvimento)",
       imagem: "/images/alurabooks.PNG",
@@ -146,17 +122,7 @@ export const projetos=[
       type:"Front-End",
     },
     {
-      id:15,
-      nome: "Cinetag",
-      descricao: " Aplicativo de reprodução de videos\n\n  Recursos do aplicativo:\n\n- Reprodução de videos\n\n- Favoritar videos\n\n- Acessar videos favoritos",
-      imagem: "/images/cinetag.PNG",
-      github: "https://github.com/Mariahsth/cinetag",
-      demo: "https://cinetag-one-beige.vercel.app/",
-      tags:"React, JS, CSS",
-      type:"Front-End",
-    },
-    {
-      id:16,
+      id:13,
       nome: "Event tracker",
       descricao: " Aplicativo de calendário para agenda de eventos\n\n  Recursos do aplicativo:\n\n- Calendário interativo\n\n- Buscar eventos salvos no banco de dados\n\n- Criar novos eventos no banco de dados\n\n- Excluir eventos\n\n- Finalizar eventos\n\n- Filtro de eventos por data",
       imagem: "/images/event-tracker.PNG",
@@ -166,7 +132,16 @@ export const projetos=[
       type:"Full-Stack",
     },
     {
-      id:17,
+      id:14,
+      nome: "Gerenciamento de cursos",
+      descricao: "Um aplicativo backend para gerenciamento de cursos com construção de 4 entidades relacionais no SQL: Pessoas, Cursos, Matriculas e Categorias\n\n  Recursos do aplicativo:\n\n- Cadastrar, atualizar, deletar e consultar cursos, categorias e pessoas\n\n- Cadastrar, atualizar, deletar e consultar matriculas (ativas, por estudante ou por cursos lotados)\n\n- Consultar usuários ativos\n\n- Validação de formulários no backend\n\n- Consultar turmas abertas por intervalo de data\n\n- Cancelamento automático de matriculas ao desativar cadastro de estudante\n\n- Outros requisitos no README do projeto",
+      imagem: "/images/gerenciamento-cursos.PNG",
+      github: "https://github.com/Mariahsth/ORM_Node_Sequelize_SQlite",
+      tags:"Node.js, Express, SQLite, Sequelize",
+      type:"Back-End",
+    },
+    {
+      id:15,
       nome: "ScreenSound",
       descricao: "Um aplicativo backend utilizando o Swagger em C# .NET para cadastro, gerenciamento e exibição de artistas, músicas e gêneros, com API REST e persistência de dados em banco de dados SQL Server utilizando o Entity Framework Core.\n\n  Recursos do aplicativo:\n\n- Registrar, listar, atualizar e deletar artistas associados aos conjuntos de músicas cadastradas\n\n- Registrar, listar, atualizar e deletar músicas associadas a artistas e gêneros musicais\n\n- Registrar, listar e deletar gêneros musicais associados a músicas cadastradas\n\n- Listar artistas por nome\n\n- Listar músicas de um artista específico\n\n- Listar músicas por ano de lançamento",
       imagem: "/images/screensound.PNG",
@@ -174,6 +149,7 @@ export const projetos=[
       tags:"C#, .NET, Entity, Swagger",
       type:"Back-End",
     },
+
 
 
     

@@ -133,7 +133,7 @@ export const projetos=[
     },
     {
       id:14,
-      nome: "Gerenciamento de cursos",
+      nome: "Gerenciamento de Cursos",
       descricao: "Um aplicativo backend para gerenciamento de cursos com construção de 4 entidades relacionais no SQL: Pessoas, Cursos, Matriculas e Categorias\n\n  Recursos do aplicativo:\n\n- Cadastrar, atualizar, deletar e consultar cursos, categorias e pessoas\n\n- Cadastrar, atualizar, deletar e consultar matriculas (ativas, por estudante ou por cursos lotados)\n\n- Consultar usuários ativos\n\n- Validação de formulários no backend\n\n- Consultar turmas abertas por intervalo de data\n\n- Cancelamento automático de matriculas ao desativar cadastro de estudante\n\n- Outros requisitos no README do projeto",
       imagem: "/images/gerenciamentoCursos.png",
       github: "https://github.com/Mariahsth/ORM_Node_Sequelize_SQlite",
@@ -147,6 +147,15 @@ export const projetos=[
       imagem: "/images/screensound.PNG",
       github: "https://github.com/Mariahsth/screen-sound-SQL",
       tags:"C#, .NET, Entity, Swagger",
+      type:"Back-End",
+    },
+    {
+      id:16,
+      nome: "Mapeamento de Saúde",
+      descricao: "Mapeamento de saúde de cidadãos - Projeto de questionário analítico de sintomas da covid\n\n  Recursos do aplicativo:\n\n- Login de usuários: Permite realizar o controle de acesso no modo Administrador e Gestor a partir da autenticação dos usuários cadastrados pelo login.\n\n- Cadastro de cidadãos, sintomas, usuários e saudações: Permite adicionar novos cidadãos, usuários, sintomas e saudações de forma manual, ou adicionar os cidadãos por importação de arquivo.\n\n- Listagem de cidadãos, sintomas, usuários e saudações: Permite verificar quais cidadãos, usuários, sintomas e saudações que estão cadastrados no programa.\n\n- Realizar diagnóstico: Permite realizar questionário de saúde ao cidadão selecionado.\n\n- Relatórios analíticos ou sintéticos: Exibe relatórios consolidados por cidadão, por diagnóstico ou por filtros cruzados.",
+      imagem: "/images/covid.PNG",
+      github: "https://github.com/Mariahsth/projeto-covid-python",
+      tags:"Python",
       type:"Back-End",
     },
 

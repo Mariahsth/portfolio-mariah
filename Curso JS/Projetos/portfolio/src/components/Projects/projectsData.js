@@ -6,7 +6,7 @@ export const projetos=[
     imagem: "/images/opportunum.PNG",
     github: "https://github.com/Mariahsth/opportunum",
     demo: "https://opportunum.vercel.app/",
-    tags:"React, Axios, TypeScript, Node.js, Express, MongoDB, Mongoose,MaterialUI",
+    tags:"React, Axios, TypeScript, Node.js, Express, MongoDB, Mongoose, MaterialUI",
     type:"Full-Stack",
   },
   {

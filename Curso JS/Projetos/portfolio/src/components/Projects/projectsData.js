@@ -1,8 +1,8 @@
 export const projetos=[
   {
     id:1,
-    nome: "Opportunum",
-    descricao: " Um sistema web full-stack para gestão de projetos e acompanhamento de OKRs (Objectives and Key Results).\n\n  Recursos do aplicativo:\n\n- Autenticação de usuários (login com JWT)\n\n- Cadastro e gerenciamento de projetos\n\n- Registro e acompanhamento de tarefas (pendente, em andamento, concluído)\n\n- Dashboard geral com gráfico de status consolidado de todas as tarefas dos projetos\n\n- Dashboard individual com gráfico de status consolidado de todas as tarefas pendentes do usuário\n\n- Visualização detalhada de cada projeto com gráficos individuais\n\n- Gestão de acessos (roles)",
+    nome: "Planejamento de OKRs - Opportunum",
+    descricao: " Um sistema web full-stack para gestão de projetos e acompanhamento de OKRs (Objectives and Key Results).\n\n  Recursos do aplicativo:\n\n- Autenticação de usuários (login com JWT)\n\n- Cadastro e gerenciamento de projetos\n\n- Registro e acompanhamento de tarefas (pendente, em andamento, concluído)\n\n- Dashboard geral com gráfico de status consolidado de todas as tarefas dos projetos\n\n- Dashboard individual com gráfico de status consolidado de todas as tarefas pendentes do usuário\n\n- Visualização detalhada de cada projeto com gráficos individuais\n\n- Gestão de acessos (roles)\n\n- Login para teste: \n\nEmail: admin@opportunum.com \n\nSenha: Senha@123",
     imagem: "/images/opportunum.PNG",
     github: "https://github.com/Mariahsth/opportunum",
     demo: "https://opportunum.vercel.app/",

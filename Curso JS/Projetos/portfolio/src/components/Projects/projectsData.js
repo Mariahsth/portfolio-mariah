@@ -105,7 +105,7 @@ export const projetos = [
 
 
   {
-    id:8,
+    id:10,
     nome: "Spotify",
     descricao: " Projeto Full-stack de aplicativo web que permite acessar e ouvir as principais músicas dos artistas mais ouvidos do Brasil.\n\n  Recursos do aplicativo:\n\n- Acessar artistas e músicas populares\n\n- Acessar albuns de cada artista\n\n- Acessar player da música escolhida\n\n- Reproduzir e pausar música desejada\n\n- Seguir para a póxima música ou para a anterior\n\n- Reproduzir música no modo aleatório",
     imagem: "/images/spotify.JPG",
@@ -115,7 +115,7 @@ export const projetos = [
     type:"Full-Stack",
   },
   {
-    id: 13,
+    id: 11,
     nome: "Gerenciamento de Cursos",
     descricao:
       "Um aplicativo backend para gerenciamento de cursos com construção de 4 entidades relacionais no SQL: Pessoas, Cursos, Matriculas e Categorias\n\n  Recursos do aplicativo:\n\n- Cadastrar, atualizar, deletar e consultar cursos, categorias e pessoas\n\n- Cadastrar, atualizar, deletar e consultar matriculas (ativas, por estudante ou por cursos lotados)\n\n- Consultar usuários ativos\n\n- Validação de formulários no backend\n\n- Consultar turmas abertas por intervalo de data\n\n- Cancelamento automático de matriculas ao desativar cadastro de estudante\n\n- Outros requisitos no README do projeto",
@@ -125,7 +125,7 @@ export const projetos = [
     type: "Back-End",
   },
   {
-    id: 14,
+    id: 12,
     nome: "ScreenSound",
     descricao:
       "Um aplicativo backend utilizando o Swagger em C# .NET para cadastro, gerenciamento e exibição de artistas, músicas e gêneros, com API REST e persistência de dados em banco de dados SQL Server utilizando o Entity Framework Core.\n\n  Recursos do aplicativo:\n\n- Registrar, listar, atualizar e deletar artistas associados aos conjuntos de músicas cadastradas\n\n- Registrar, listar, atualizar e deletar músicas associadas a artistas e gêneros musicais\n\n- Registrar, listar e deletar gêneros musicais associados a músicas cadastradas\n\n- Listar artistas por nome\n\n- Listar músicas de um artista específico\n\n- Listar músicas por ano de lançamento",
@@ -135,7 +135,7 @@ export const projetos = [
     type: "Back-End",
   },
   {
-    id: 15,
+    id: 13,
     nome: "Mapeamento de Saúde",
     descricao:
       "Mapeamento de saúde de cidadãos - Projeto de questionário analítico de sintomas da covid\n\n  Recursos do aplicativo:\n\n- Login de usuários: Permite realizar o controle de acesso no modo Administrador e Gestor a partir da autenticação dos usuários cadastrados pelo login.\n\n- Cadastro de cidadãos, sintomas, usuários e saudações: Permite adicionar novos cidadãos, usuários, sintomas e saudações de forma manual, ou adicionar os cidadãos por importação de arquivo.\n\n- Listagem de cidadãos, sintomas, usuários e saudações: Permite verificar quais cidadãos, usuários, sintomas e saudações que estão cadastrados no programa.\n\n- Realizar diagnóstico: Permite realizar questionário de saúde ao cidadão selecionado.\n\n- Relatórios analíticos ou sintéticos: Exibe relatórios consolidados por cidadão, por diagnóstico ou por filtros cruzados.",
@@ -145,7 +145,7 @@ export const projetos = [
     type: "Back-End",
   },
   {
-    id: 10,
+    id: 14,
     nome: "AluraDocs",
     descricao:
       "Comunicação  de vários usuários em tempo real.\n\nAluraDocs é um aplicativo web organizador de resumos e informações de documentos para temas diversos, que permite adicionar, armazenar, editar e excluir as informações em tempo real em salas compartilhadas.\n\n  Recursos do aplicativo:\n\n- Cadastro de usuários: Permite cadastrar usuários ao banco de dados com senhas criptografadas.\n\n- Login de usuários: Permite realizar o controle de acesso a partir da autenticação dos usuários cadastrados pelo login.\n\n- Adição de documentos: Permite adicionar novos documentos à lista.\n\n- Edição de documentos: Permite editar o conteúdo dos documentos em tempo real em qualquer dispositivo.\n\n- Listagem de documentos: Exibe os documentos e seus conteúdos salvos, buscados através de banco de dados.\n\n- Exclusão de documentos: Permite remover documentos da lista, gerando alerta para quem estiver na sala, e atualizando instantaneamente.",

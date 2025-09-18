@@ -232,7 +232,7 @@
   }
 }
 
-@media (max-width: 950px){
+@media (max-width: 1150px){
   .filtros_container{
     gap:0.5rem;
   }
@@ -243,6 +243,9 @@
 @media (max-width: 750px){
   .projects_lista_container{
     margin-top: 1rem;
+  }
+  .filtros_container>button{
+    width: 100px;
   }
 
   .projects_titulo_container> h2{

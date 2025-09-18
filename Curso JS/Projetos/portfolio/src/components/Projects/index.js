@@ -73,7 +73,7 @@ export default function Projects() {
 
             {isOpen && (
               <div className="dropdown_menu">
-                {["Todos", "Full-Stack", "Front-End", "Back-End"].map((item) => (
+                {["Todos", "Full-Stack", "Front-End", "Back-End", "IA/Automação"].map((item) => (
                   <div
                     key={item}
                     className={`dropdown_item ${item === filter ? "active" : ""}`}
@@ -94,6 +94,7 @@ export default function Projects() {
             <Botao onClick={handleFilterClick}>Full-Stack</Botao>
             <Botao onClick={handleFilterClick}>Front-End</Botao>
             <Botao onClick={handleFilterClick}>Back-End</Botao>
+            <Botao onClick={handleFilterClick}>IA/Automação</Botao>
           </div>
         )}
       </div>

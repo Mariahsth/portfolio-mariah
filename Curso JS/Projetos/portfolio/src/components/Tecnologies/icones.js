@@ -80,6 +80,18 @@ export const icones=[
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg",
     },
     {
+        nome:"N8N",
+        url: "/images/n8n-color.svg",
+    },
+    {
+        nome:"Langchain",
+        url: "/images/langchain.svg",
+    },
+    {
+        nome:"Gemini",
+        url: "/images/gemini.svg",
+    },
+    {
         nome:"Entity",
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/entityframeworkcore/entityframeworkcore-original.svg",
     },
